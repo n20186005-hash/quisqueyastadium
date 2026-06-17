@@ -5,6 +5,7 @@ import { useState, useCallback } from 'react';
 
 const photoFiles = [
   'estadio-quisqueya-juan-marichal-1.jpg',
+  'estadio-quisqueya-juan-marichal-2.jpg',
   'estadio-quisqueya-juan-marichal-3.jpg',
   'estadio-quisqueya-juan-marichal-4.jpg',
   'estadio-quisqueya-juan-marichal-5.jpg',
@@ -19,9 +20,6 @@ const photoFiles = [
   'estadio-quisqueya-juan-marichal-14.jpg',
   'estadio-quisqueya-juan-marichal-15.jpg',
   'estadio-quisqueya-juan-marichal-16.jpg',
-  'estadio-quisqueya-juan-marichal-17.jpg',
-  'estadio-quisqueya-juan-marichal-18.jpg',
-  'estadio-quisqueya-juan-marichal-19.jpg',
 ];
 
 export default function Gallery() {

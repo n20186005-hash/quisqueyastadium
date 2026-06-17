@@ -11,8 +11,8 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Estadio Quisqueya Juan Marichal",
-    "subtitle": "Quisqueya Juan Marichal Stadium · Santo Domingo, Dominican Republic",
+    "title": "Estadio Quisqueya Juan Marichal — The Soul of Dominican Baseball",
+    "subtitle": "Feel the purest baseball passion in the Caribbean! The glorious home of Tigres del Licey and Leones del Escogido.",
     "rating": "4.6",
     "reviewCount": "9,997",
     "hours": "Stadium",
@@ -20,35 +20,35 @@
   },
   "intro": {
     "title": "Explore Estadio Quisqueya Juan Marichal",
-    "description": "Estadio Quisqueya Juan Marichal is located at Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, Dominican Republic. It is one of the most important baseball stadiums in the Dominican Republic and an important venue for the Dominican Professional Baseball League (LIDOM). The stadium has become an important sports and cultural landmark in Santo Domingo with its rich baseball history and excellent facilities.",
+    "description": "In the Dominican Republic, baseball is not just a sport; it's a religion. Join tens of thousands of passionate fans, accompanied by Latin music, local Presidente beer, and cheerleader chants, to experience an adrenaline-pumping LIDOM game. This is the shared home of two legendary Dominican baseball teams: Tigres del Licey and Leones del Escogido.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
-        "Stadium opening hours are scheduled according to games and events",
-        "It is recommended to check game schedules and ticket information in advance",
-        "Bring enough sunscreen and water",
-        "Experience Dominican baseball culture and enthusiastic atmosphere",
-        "Respect stadium rules and other spectators"
+        "Traffic around the stadium is extremely congested an hour before the game. It is recommended to arrive early by Uber or taxi.",
+        "It is recommended to check game schedules and ticket information in advance. Popular games require early booking.",
+        "Bring enough sunscreen and water.",
+        "Experience Dominican baseball culture and enthusiastic atmosphere.",
+        "Respect stadium rules and other spectators."
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Important Sports Landmark: As an important venue for Dominican professional baseball, it has significant sports and cultural value.",
-        "Rich Baseball History: The stadium carries the rich baseball tradition and history of the Dominican Republic.",
-        "Excellent Facilities: It has complete sports facilities, providing audiences with a good game-watching experience.",
-        "Cultural Value: As a sports and cultural landmark, it has important social and cultural value."
+        "⚾ Dual Home: Witness the century-old rivalry between Licey and Escogido.",
+        "🍻 Authentic Food: Enjoy classic Dominican snacks and ice-cold beer in the stands.",
+        "🌟 Hall of Fame Tribute: Pay respects to the statue and honors of the great pitcher Juan Marichal.",
+        "🏟️ Top Atmosphere: Feel the passionate cheers of approximately 14,465 spectators."
       ]
     }
   },
   "route": {
-    "title": "Tour Route",
-    "overview": "The ideal route to explore Estadio Quisqueya Juan Marichal:",
+    "title": "Tour & Practical Guide",
+    "overview": "The perfect route to explore Estadio Quisqueya Juan Marichal:",
     "steps": [
-      "Start at the main entrance on Avenida Tiradentes.",
-      "Visit the stadium's exterior architecture and iconic facilities.",
-      "Learn about the stadium's baseball history and cultural value.",
-      "Feel the Dominican baseball atmosphere around the stadium."
+      "🎫 Ticketing Guide: It is recommended to purchase regular season or playoff tickets through the official website or on-site ticket booths. Please make sure to grab tickets in advance for popular games.",
+      "🚗 Traffic & Parking: Traffic around the stadium is extremely congested an hour before the game. It is recommended to arrive early by Uber or taxi.",
+      "🏟️ Seating Guide: Premium seats (Palcos) offer the best view; the outfield stands (Bleachers) have the most passionate atmosphere, but please pay attention to safety.",
+      "🌟 Nearby Recommendations: The Colonial Zone (Zona Colonial) of Santo Domingo is about a 15-minute drive away. It is recommended to visit the old town before the game."
     ],
     "supplementsTitle": "Additional Tour Tips",
     "supplements": [
@@ -80,16 +80,16 @@
   "basicInfo": {
     "title": "Basic Information",
     "officialName": "Official Name",
-    "officialNameValue": "Estadio Quisqueya Juan Marichal (Quisqueya Juan Marichal Stadium)",
-    "type": "Attraction Type",
-    "typeValue": "Stadium",
-    "country": "Country",
-    "countryValue": "Dominican Republic",
+    "officialNameValue": "Estadio Quisqueya Juan Marichal",
+    "type": "Capacity",
+    "typeValue": "Approx. 14,465 spectators",
+    "country": "Home Teams",
+    "countryValue": "Tigres del Licey / Leones del Escogido",
     "city": "City",
     "cityValue": "Santo Domingo",
     "googleRating": "Google Rating",
     "address": "Address",
-    "addressValue": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, Dominican Republic",
+    "addressValue": "Av. Tiradentes, Ensanche La Fe, Santo Domingo",
     "plusCode": "Plus Code",
     "plusCodeValue": "H6G9+4P Santo Domingo 10514, Dominican Republic",
     "phone": "Official Phone",
@@ -143,6 +143,7 @@
     "subtitle": "The Charm of Estadio Quisqueya Juan Marichal",
     "captions": [
       "Stadium panoramic view",
+      "Passionate Game",
       "Exterior architecture",
       "Stadium exterior",
       "Architectural features",
@@ -156,10 +157,7 @@
       "Full view",
       "Architectural style",
       "Exterior traces",
-      "Cultural landscape",
-      "Natural scenery",
-      "Sports landscape",
-      "Surrounding facilities"
+      "Cultural landscape"
     ],
     "viewAll": "View more photos on Google Maps",
     "showAllPhotos": "Show All Photos"
@@ -356,22 +354,28 @@
     "title": "Historical Timeline",
     "items": [
       {
-        "year": "Early Period",
-        "title": "Early Period: Stadium Construction",
-        "plaque": "Sports Facilities (Stadium)",
-        "description": "The construction of Estadio Quisqueya Juan Marichal aimed to provide an important baseball venue for Santo Domingo citizens, and has long been regarded as an important sports and cultural landmark by local residents."
+        "year": "1955",
+        "title": "Official Opening",
+        "plaque": "Stadium Construction",
+        "description": "The stadium was officially inaugurated, built under the direction of dictator Trujillo (originally named Estadio Trujillo)."
       },
       {
-        "year": "20th Century",
-        "title": "20th Century: Facility Improvement",
-        "plaque": "Sports Development (Stadium Construction)",
-        "description": "With the development of baseball in the Dominican Republic, the stadium gradually improved game-watching facilities and related services, becoming an important venue for Dominican professional baseball."
+        "year": "1956",
+        "title": "First LIDOM Match",
+        "plaque": "Sports Milestone",
+        "description": "Hosted the first Dominican Professional Baseball League (LIDOM) match, opening a new era for Dominican baseball."
       },
       {
-        "year": "21st Century",
-        "title": "21st Century: Sports Landmark",
-        "plaque": "Sports Identity (Cultural Landmark)",
-        "description": "Entering the 21st century, with its rich baseball history and important cultural value, it has attracted more tourists and become an important sports and cultural landmark in Santo Domingo."
+        "year": "2015",
+        "title": "Tribute to Juan Marichal",
+        "plaque": "Cultural Honor",
+        "description": "To honor the great pitcher Juan Marichal, the first Dominican inducted into the National Baseball Hall of Fame, the stadium was officially renamed Estadio Quisqueya Juan Marichal."
+      },
+      {
+        "year": "Present",
+        "title": "Caribbean Series",
+        "plaque": "International Sports Event",
+        "description": "Has hosted the Caribbean Series (Serie del Caribe) multiple times, becoming one of the highest temples of Latin American baseball."
       }
     ],
     "guideTitle": "Visitor Guide Tip",

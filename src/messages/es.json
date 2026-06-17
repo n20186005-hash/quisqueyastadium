@@ -11,8 +11,8 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
-    "title": "Estadio Quisqueya Juan Marichal",
-    "subtitle": "Estadio Quisqueya Juan Marichal · Santo Domingo, República Dominicana",
+    "title": "Estadio Quisqueya Juan Marichal — El Alma del Béisbol Dominicano",
+    "subtitle": "¡Siente la pasión de béisbol más pura del Caribe! El glorioso hogar de los Tigres del Licey y Leones del Escogido.",
     "rating": "4.6",
     "reviewCount": "9,997",
     "hours": "Estadio",
@@ -20,35 +20,35 @@
   },
   "intro": {
     "title": "Explora el Estadio Quisqueya Juan Marichal",
-    "description": "El Estadio Quisqueya Juan Marichal se encuentra en Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, República Dominicana. Es uno de los estadios de béisbol más importantes en la República Dominicana y un lugar importante para la Liga de Béisbol Profesional Dominicana (LIDOM). El estadio se ha convertido en un hito deportivo y cultural importante en Santo Domingo con su rica historia del béisbol y excelentes instalaciones.",
+    "description": "En la República Dominicana, el béisbol no es solo un deporte; es una religión. Únete a decenas de miles de fanáticos apasionados, acompañados de música latina, cerveza Presidente local y cánticos de porristas, para experimentar un juego de la LIDOM lleno de adrenalina. Este es el hogar compartido de dos equipos legendarios de béisbol dominicano: Tigres del Licey y Leones del Escogido.",
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
-        "El horario del estadio se programan según los juegos y eventos",
-        "Se recomienda consultar los horarios de juegos e información de entradas con anticipación",
-        "Lleva suficiente protector solar y agua",
-        "Experimenta la cultura del béisbol dominicano y el ambiente entusiasta",
-        "Respetar las reglas del estadio y otros espectadores"
+        "El tráfico alrededor del estadio es extremadamente congestionado una hora antes del juego. Se recomienda llegar temprano en Uber o taxi.",
+        "Se recomienda consultar los horarios de juegos e información de entradas con anticipación. Los juegos populares requieren reserva anticipada.",
+        "Lleva suficiente protector solar y agua.",
+        "Experimenta la cultura del béisbol dominicano y el ambiente entusiasta.",
+        "Respeta las reglas del estadio y otros espectadores."
       ]
     },
     "alsoKnownAs": {
       "title": "Destacados",
       "items": [
-        "Hito Deportivo Importante: Como un lugar importante para el béisbol profesional dominicano, tiene un valor deportivo y cultural significativo.",
-        "Rica Historia del Béisbol: El estadio lleva la rica tradición y historia del béisbol de la República Dominicana.",
-        "Excelentes Instalaciones: Cuenta con instalaciones deportivas completas, proporcionando a los espectadores una buena experiencia de observación de juegos.",
-        "Valor Cultural: Como un hito deportivo y cultural, tiene un importante valor social y cultural."
+        "⚾ Doble Hogar: Sé testigo de la rivalidad centenaria entre Licey y Escogido.",
+        "🍻 Comida Auténtica: Disfruta de los clásicos bocadillos dominicanos y cerveza helada en las gradas.",
+        "🌟 Tributo al Salón de la Fama: Rinde homenaje a la estatua y los honores del gran lanzador Juan Marichal.",
+        "🏟️ Máximo Ambiente: Siente los vítores apasionados de aproximadamente 14,465 espectadores."
       ]
     }
   },
   "route": {
-    "title": "Ruta de Visita",
-    "overview": "La ruta ideal para explorar el Estadio Quisqueya Juan Marichal:",
+    "title": "Guía Práctica y Recorrido",
+    "overview": "La ruta perfecta para explorar el Estadio Quisqueya Juan Marichal:",
     "steps": [
-      "Comienza en la entrada principal en Avenida Tiradentes.",
-      "Visita la arquitectura exterior del estadio y las instalaciones icónicas.",
-      "Aprende sobre la historia del béisbol del estadio y su valor cultural.",
-      "Siente el ambiente del béisbol dominicano alrededor del estadio."
+      "🎫 Guía de Entradas: Se recomienda comprar boletos para la temporada regular o los playoffs a través del sitio web oficial o en las taquillas del lugar. Asegúrese de comprar boletos con anticipación para juegos populares.",
+      "🚗 Tráfico y Estacionamiento: El tráfico alrededor del estadio es extremadamente congestionado una hora antes del juego. Se recomienda llegar temprano en Uber o taxi.",
+      "🏟️ Guía de Asientos: Los asientos premium (Palcos) ofrecen la mejor vista; las gradas de los jardines (Bleachers) tienen el ambiente más apasionado, pero preste atención a la seguridad.",
+      "🌟 Recomendaciones Cercanas: La Zona Colonial de Santo Domingo está a unos 15 minutos en coche. Se recomienda visitar el casco antiguo antes del juego."
     ],
     "supplementsTitle": "Consejos Adicionales de Visita",
     "supplements": [
@@ -81,15 +81,15 @@
     "title": "Información Básica",
     "officialName": "Nombre Oficial",
     "officialNameValue": "Estadio Quisqueya Juan Marichal",
-    "type": "Tipo de atracción",
-    "typeValue": "Estadio",
-    "country": "País",
-    "countryValue": "República Dominicana",
+    "type": "Capacidad",
+    "typeValue": "Aprox. 14,465 espectadores",
+    "country": "Equipos Locales",
+    "countryValue": "Tigres del Licey / Leones del Escogido",
     "city": "Ciudad",
     "cityValue": "Santo Domingo",
     "googleRating": "Calificación de Google",
     "address": "Dirección",
-    "addressValue": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, República Dominicana",
+    "addressValue": "Av. Tiradentes, Ensanche La Fe, Santo Domingo",
     "plusCode": "Código Plus",
     "plusCodeValue": "H6G9+4P Santo Domingo 10514, República Dominicana",
     "phone": "Teléfono Oficial",
@@ -143,6 +143,7 @@
     "subtitle": "El Encanto del Estadio Quisqueya Juan Marichal",
     "captions": [
       "Vista panorámica del estadio",
+      "Juego Apasionado",
       "Arquitectura exterior",
       "Exterior del estadio",
       "Características arquitectónicas",
@@ -156,10 +157,7 @@
       "Vista completa",
       "Estilo arquitectónico",
       "Rastros exteriores",
-      "Cultura natural",
-      "Paisaje natural",
-      "Paisaje deportivo",
-      "Instalaciones cercanas"
+      "Cultura natural"
     ],
     "viewAll": "Ver más fotos en Google Maps",
     "showAllPhotos": "Mostrar Todas las Fotos"
@@ -356,22 +354,28 @@
     "title": "Cronología Histórica",
     "items": [
       {
-        "year": "Período Inicial",
-        "title": "Período Inicial: Construcción del Estadio",
-        "plaque": "Instalaciones Deportivas (Estadio)",
-        "description": "La construcción del Estadio Quisqueya Juan Marichal tenía como objetivo proporcionar un lugar importante de béisbol para los ciudadanos de Santo Domingo, y ha sido considerado durante mucho tiempo como un hito deportivo y cultural importante por los residentes locales."
+        "year": "1955",
+        "title": "Inauguración Oficial",
+        "plaque": "Construcción del Estadio",
+        "description": "El estadio fue inaugurado oficialmente, construido bajo la dirección del dictador Trujillo (originalmente llamado Estadio Trujillo)."
       },
       {
-        "year": "Siglo XX",
-        "title": "Siglo XX: Mejora de Instalaciones",
-        "plaque": "Desarrollo Deportivo (Construcción del Estadio)",
-        "description": "Con el desarrollo del béisbol en la República Dominicana, el estadio mejoró gradualmente las instalaciones para observar juegos y servicios relacionados, convirtiéndose en un lugar importante para el béisbol profesional dominicano."
+        "year": "1956",
+        "title": "Primer Juego LIDOM",
+        "plaque": "Hito Deportivo",
+        "description": "Fue sede del primer juego de la Liga de Béisbol Profesional Dominicana (LIDOM), abriendo una nueva era para el béisbol dominicano."
       },
       {
-        "year": "Siglo XXI",
-        "title": "Siglo XXI: Hito Deportivo",
-        "plaque": "Identidad Deportiva (Hito Cultural)",
-        "description": "Al entrar en el siglo XXI, con su rica historia del béisbol e importante valor cultural, ha atraído a más turistas y se ha convertido en un hito deportivo y cultural importante en Santo Domingo."
+        "year": "2015",
+        "title": "Tributo a Juan Marichal",
+        "plaque": "Honor Cultural",
+        "description": "Para honrar al gran lanzador Juan Marichal, el primer dominicano incluido en el Salón de la Fama del Béisbol Nacional, el estadio fue renombrado oficialmente como Estadio Quisqueya Juan Marichal."
+      },
+      {
+        "year": "Presente",
+        "title": "Serie del Caribe",
+        "plaque": "Evento Deportivo Internacional",
+        "description": "Ha sido sede de la Serie del Caribe en múltiples ocasiones, convirtiéndose en uno de los templos más altos del béisbol latinoamericano."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",

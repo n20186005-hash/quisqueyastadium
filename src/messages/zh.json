@@ -11,8 +11,8 @@
     "backToHome": "返回首页"
   },
   "hero": {
-    "title": "Estadio Quisqueya Juan Marichal",
-    "subtitle": "基斯克亚·胡安·马歇尔球场 · 多米尼加共和国圣多明戈",
+    "title": "Estadio Quisqueya Juan Marichal —— 多米尼加棒球的灵魂殿堂",
+    "subtitle": "感受加勒比海最纯粹的棒球激情！老虎队与狮子队的荣耀主场。",
     "rating": "4.6",
     "reviewCount": "9,997",
     "hours": "体育场",
@@ -20,12 +20,12 @@
   },
   "intro": {
     "title": "探索 Estadio Quisqueya Juan Marichal",
-    "description": "Estadio Quisqueya Juan Marichal 位于多米尼加共和国圣多明戈的 Tiradentes 大道拐角处 3456 号。这是多米尼加共和国最重要的棒球体育场之一，也是多米尼加职业棒球联盟（LIDOM）的重要比赛场地。体育场以其丰富的棒球历史和出色的设施，成为圣多明戈重要的体育文化地标。",
+    "description": "在多米尼加，棒球不仅仅是运动，更是信仰。加入上万名狂热球迷，伴随着拉丁音乐、当地的 Presidente 啤酒和啦啦队的欢呼，体验一场肾上腺素飙升的 LIDOM 赛事。这里是多米尼加两大传奇棒球队——“里西老虎队”（Tigres del Licey）和“埃斯科吉多狮子队”（Leones del Escogido）的共同主场。",
     "visitGuide": {
       "title": "游览建议",
       "items": [
-        "体育场的开放时间根据比赛和活动时间安排",
-        "建议提前查看比赛日程和门票信息",
+        "赛前一小时周边交通极其拥堵，建议乘坐 Uber 或出租车提前抵达",
+        "建议提前查看比赛日程和门票信息，热门比赛需提前抢票",
         "携带足够的防晒用品和水",
         "体验多米尼加的棒球文化和热情氛围",
         "尊重体育场规定和其他观众"
@@ -34,21 +34,21 @@
     "alsoKnownAs": {
       "title": "核心亮点",
       "items": [
-        "重要的体育地标：作为多米尼加职业棒球的重要比赛场地，具有重要的体育文化价值。",
-        "丰富的棒球历史：体育场承载着多米尼加共和国丰富的棒球传统和历史。",
-        "出色的设施：拥有完善的体育设施，为观众提供良好的观赛体验。",
-        "文化价值：作为体育文化地标，具有重要的社会和文化价值。"
+        "⚾ 双雄主场：见证 Licey 和 Escogido 的世纪宿敌对决。",
+        "🍻 地道美食：享受看台上的经典多米尼加小吃和冰镇啤酒。",
+        "🌟 名人堂致敬：瞻仰伟大投手胡安·马歇尔的雕像与荣誉。",
+        "🏟️ 顶级氛围：感受约 14,465 名观众的狂热欢呼。"
       ]
     }
   },
   "route": {
-    "title": "游览路线",
-    "overview": "探索 Estadio Quisqueya Juan Marichal 的理想路线：",
+    "title": "游览与实用指南",
+    "overview": "探索 Estadio Quisqueya Juan Marichal 的完美路线：",
     "steps": [
-      "从 Tiradentes 大道主入口进入体育场区域。",
-      "参观体育场的外部建筑和标志性设施。",
-      "了解体育场的棒球历史和文化价值。",
-      "在体育场周边感受多米尼加的棒球氛围。"
+      "🎫 票务指南：建议通过官方网站或现场售票亭购买常规赛或季后赛门票，热门比赛请务必提前抢票。",
+      "🚗 交通与停车：赛前一小时周边交通极其拥堵，建议乘坐 Uber 或出租车提前抵达。",
+      "🏟️ 座位指南：高级座（Palcos）视野最好；外野看台（Bleachers）氛围最狂热，但需注意安全。",
+      "🌟 周边推荐：圣多明戈老城（Zona Colonial）距离此处约 15 分钟车程，建议赛前游览老城。"
     ],
     "supplementsTitle": "游览补充建议",
     "supplements": [
@@ -81,15 +81,15 @@
     "title": "基础信息",
     "officialName": "正式名称",
     "officialNameValue": "Estadio Quisqueya Juan Marichal（基斯克亚·胡安·马歇尔球场）",
-    "type": "景点类型",
-    "typeValue": "体育场",
-    "country": "国家",
-    "countryValue": "多米尼加共和国",
+    "type": "场馆容量",
+    "typeValue": "约 14,465 名观众",
+    "country": "主队",
+    "countryValue": "Tigres del Licey / Leones del Escogido",
     "city": "城市",
-    "cityValue": "圣多明戈",
+    "cityValue": "圣多明戈 (Santo Domingo)",
     "googleRating": "谷歌评分",
     "address": "地址",
-    "addressValue": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514多米尼加共和国",
+    "addressValue": "Av. Tiradentes, Ensanche La Fe, Santo Domingo",
     "plusCode": "Plus 代码",
     "plusCodeValue": "H6G9+4P Santo Domingo 10514 多米尼加共和国",
     "phone": "联系电话",
@@ -143,6 +143,7 @@
     "subtitle": "Estadio Quisqueya Juan Marichal 的魅力风光",
     "captions": [
       "体育场全景",
+      "激情赛事",
       "外部建筑",
       "体育场外观",
       "建筑特色",
@@ -156,10 +157,7 @@
       "全貌景色",
       "建筑风格",
       "外部痕迹",
-      "文化景观",
-      "自然风光",
-      "体育场景观",
-      "周边设施"
+      "文化景观"
     ],
     "viewAll": "在 Google Maps 查看更多照片",
     "showAllPhotos": "显示全部照片"
@@ -356,22 +354,28 @@
     "title": "历史变迁时间线",
     "items": [
       {
-        "year": "早期",
-        "title": "早期：体育场建设",
-        "plaque": "体育设施（体育场）",
-        "description": "Estadio Quisqueya Juan Marichal 的建设旨在为圣多明戈市民提供一个重要的棒球比赛场地，长期以来被当地居民视为重要的体育文化地标。"
+        "year": "1955年",
+        "title": "正式建成",
+        "plaque": "体育设施落成",
+        "description": "球场正式落成，由独裁者特鲁希略主导建设（最初名为 Estadio Trujillo）。"
       },
       {
-        "year": "20世纪",
-        "title": "20世纪：设施完善",
-        "plaque": "体育发展（体育场建设）",
-        "description": "随着多米尼加共和国棒球运动的发展，体育场逐渐完善了观赛设施和相关服务，成为多米尼加职业棒球的重要比赛场地。"
+        "year": "1956年",
+        "title": "首次 LIDOM 比赛",
+        "plaque": "体育发展里程碑",
+        "description": "首次举办多米尼加职业棒球联盟 (LIDOM) 比赛，开启了多米尼加棒球的新纪元。"
       },
       {
-        "year": "21世纪",
-        "title": "21世纪：体育地标",
-        "plaque": "体育标识（文化地标）",
-        "description": "进入21世纪，这里凭借丰富的棒球历史和重要的文化价值，吸引了更多游客，成为圣多明戈重要的体育文化地标。"
+        "year": "2015年",
+        "title": "致敬胡安·马歇尔",
+        "plaque": "文化与荣誉更名",
+        "description": "为致敬多米尼加历史上首位入选美国棒球名人堂的伟大投手胡安·马歇尔（Juan Marichal），球场正式更名为 Estadio Quisqueya Juan Marichal。"
+      },
+      {
+        "year": "至今",
+        "title": "加勒比海大赛",
+        "plaque": "国际体育盛事",
+        "description": "曾多次举办加勒比海大赛（Serie del Caribe），成为拉丁美洲棒球的最高殿堂之一。"
       }
     ],
     "guideTitle": "游客导览建议",
