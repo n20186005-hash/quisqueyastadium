@@ -1,8 +1,10 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://estadioquisqueyajuanmarichal.com';
+  const baseUrl = 'https://quisqueyastadium.com';
   
   const locales = routing.locales;
   
