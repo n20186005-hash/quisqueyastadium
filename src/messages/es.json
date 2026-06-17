@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "title": "Estadio Quisqueya Juan Marichal | Estadio Quisqueya Juan Marichal",
+    "description": "Explora el Estadio Quisqueya Juan Marichal en Santo Domingo, República Dominicana. Uno de los estadios de béisbol más importantes en la República Dominicana."
+  },
+  "header": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Estadio Quisqueya Juan Marichal",
+    "subtitle": "Estadio Quisqueya Juan Marichal · Santo Domingo, República Dominicana",
+    "rating": "4.6",
+    "reviewCount": "9,997",
+    "hours": "Estadio",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora el Estadio Quisqueya Juan Marichal",
+    "description": "El Estadio Quisqueya Juan Marichal se encuentra en Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, República Dominicana. Es uno de los estadios de béisbol más importantes en la República Dominicana y un lugar importante para la Liga de Béisbol Profesional Dominicana (LIDOM). El estadio se ha convertido en un hito deportivo y cultural importante en Santo Domingo con su rica historia del béisbol y excelentes instalaciones.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "El horario del estadio se programan según los juegos y eventos",
+        "Se recomienda consultar los horarios de juegos e información de entradas con anticipación",
+        "Lleva suficiente protector solar y agua",
+        "Experimenta la cultura del béisbol dominicano y el ambiente entusiasta",
+        "Respetar las reglas del estadio y otros espectadores"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "Hito Deportivo Importante: Como un lugar importante para el béisbol profesional dominicano, tiene un valor deportivo y cultural significativo.",
+        "Rica Historia del Béisbol: El estadio lleva la rica tradición y historia del béisbol de la República Dominicana.",
+        "Excelentes Instalaciones: Cuenta con instalaciones deportivas completas, proporcionando a los espectadores una buena experiencia de observación de juegos.",
+        "Valor Cultural: Como un hito deportivo y cultural, tiene un importante valor social y cultural."
+      ]
+    }
+  },
+  "route": {
+    "title": "Ruta de Visita",
+    "overview": "La ruta ideal para explorar el Estadio Quisqueya Juan Marichal:",
+    "steps": [
+      "Comienza en la entrada principal en Avenida Tiradentes.",
+      "Visita la arquitectura exterior del estadio y las instalaciones icónicas.",
+      "Aprende sobre la historia del béisbol del estadio y su valor cultural.",
+      "Siente el ambiente del béisbol dominicano alrededor del estadio."
+    ],
+    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplements": [
+      "Se recomienda consultar el horario de juegos con anticipación y experimentar el ambiente de los juegos en vivo.",
+      "Presta atención al horario de apertura del estadio y organiza tu itinerario razonablemente.",
+      "Por favor, cuida las instalaciones del estadio y cumple con las reglas de observación de juegos."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto del Estadio Quisqueya Juan Marichal",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Importancia Histórica",
+        "content": "El Estadio Quisqueya Juan Marichal es un hito deportivo y cultural importante en la República Dominicana, llevando ricas tradiciones y historia del béisbol, y es un lugar importante para la Liga de Béisbol Profesional Dominicana (LIDOM)."
+      },
+      {
+        "id": "nature",
+        "title": "Instalaciones Deportivas",
+        "content": "Cuenta con instalaciones deportivas completas y un excelente ambiente para observar juegos, siendo un lugar excelente para experimentar la cultura del béisbol dominicano."
+      },
+      {
+        "id": "experience",
+        "title": "Experiencia de Visita",
+        "content": "Sentir el entusiasmo del béisbol dominicano y el ambiente cultural en el Estadio Quisqueya Juan Marichal es una experiencia deportiva y cultural inolvidable."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Información Básica",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Estadio Quisqueya Juan Marichal",
+    "type": "Tipo de atracción",
+    "typeValue": "Estadio",
+    "country": "País",
+    "countryValue": "República Dominicana",
+    "city": "Ciudad",
+    "cityValue": "Santo Domingo",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, República Dominicana",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "H6G9+4P Santo Domingo 10514, República Dominicana",
+    "phone": "Teléfono Oficial",
+    "phoneValue": "+1 809-616-1224"
+  },
+  "hours": {
+    "title": "Horarios de Apertura",
+    "outdoor": "Horario del Estadio",
+    "outdoorTime": "Programado según juegos y eventos",
+    "lighthouse": "Mejor Época para Visitar",
+    "summer": "Días de Juego",
+    "summerTime": "Los días de juego ofrecen la mejor experiencia",
+    "winter": "Hora Recomendada para Visitar",
+    "winterTime": "Consultar horario de juegos con anticipación",
+    "warning": "Notas Importantes",
+    "warningTime": "Se recomienda verificar la información más reciente y el horario de juegos antes de visitar",
+    "tip": "Los días de juego ofrecen la mejor experiencia"
+  },
+  "tickets": {
+    "title": "Información Importante",
+    "outdoor": "Información de Entradas",
+    "outdoorPrice": "Dependiendo de los juegos y eventos",
+    "lighthouse": "Tarifa de Parqueo",
+    "adults": "Costo de Parqueo",
+    "adultsPrice": "Por favor, consulte la información oficial",
+    "students": "Otros Cargos",
+    "studentsPrice": "Por favor, consulte los anuncios oficiales",
+    "card": "Guías e Indicaciones",
+    "cardPrice": "Es posible que haya servicios locales disponibles en el lugar (se recomienda confirmar con anticipación). Indicaciones: 👉 [Ir al Estadio Quisqueya Juan Marichal]",
+    "officialNotice": "Para obtener las últimas actualizaciones sobre horarios de apertura e información relacionada, consulte el",
+    "officialNoticeLinkLabel": "Anuncio Oficial de la Liga de Béisbol Profesional Dominicana",
+    "officialNoticeLink": "https://www.lidom.com/"
+  },
+  "transport": {
+    "title": "Transporte",
+    "airport": "Desde el Aeropuerto",
+    "airportDesc": "Está relativamente cerca del Aeropuerto de Santo Domingo. Se recomienda tomar un taxi o transporte público después de llegar a la ciudad.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "Ubicado en el área de Avenida Tiradentes de Santo Domingo. Se recomienda usar navegación. Puede haber áreas de estacionamiento cercanas.",
+    "bus": "Transporte Público",
+    "busDesc": "Puede tomar transporte público en Santo Domingo a áreas cercanas, pero preste atención al horario.",
+    "intercity": "Tour a Pie",
+    "intercityDesc": "Puede caminar alrededor del área del estadio para visitar la arquitectura exterior y las áreas cercanas.",
+    "cycling": "Otros Medios",
+    "cyclingDesc": "Se recomienda transporte público o manejar, transporte conveniente alrededor del estadio.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "El Estadio Quisqueya Juan Marichal es un excelente lugar para experimentar la cultura del béisbol dominicano. Se recomienda consultar el horario de juegos con anticipación."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "El Encanto del Estadio Quisqueya Juan Marichal",
+    "captions": [
+      "Vista panorámica del estadio",
+      "Arquitectura exterior",
+      "Exterior del estadio",
+      "Características arquitectónicas",
+      "Paisaje del estadio",
+      "Paisaje exterior",
+      "Paisaje cultural",
+      "Características del estadio",
+      "Estilo arquitectónico",
+      "Vista completa del estadio",
+      "Cultura deportiva",
+      "Vista completa",
+      "Estilo arquitectónico",
+      "Rastros exteriores",
+      "Cultura natural",
+      "Paisaje natural",
+      "Paisaje deportivo",
+      "Instalaciones cercanas"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Reseñas de Visitantes",
+    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Rivera",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "Un estadio de béisbol fantástico. El ambiente de béisbol aquí es inolvidable, muy recomendable para los fanáticos del béisbol."
+      },
+      {
+        "name": "María González",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "Estadio asombroso. La cultura del béisbol aquí es muy fuerte, un hito deportivo importante en Santo Domingo."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "hace 1 mes",
+        "rating": 4,
+        "text": "Lugar muy interesante para sentir la cultura del béisbol dominicano. Se recomiendan visitar los días de juego cuando el ambiente es más animado."
+      },
+      {
+        "name": "Ana Torres",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "Un hito deportivo y cultural importante en Santo Domingo. El paisaje del estadio es agradable, un lugar imprescindible para los fanáticos del béisbol."
+      },
+      {
+        "name": "Roberto Silva",
+        "date": "hace 2 años",
+        "rating": 4,
+        "text": "Excelente experiencia en el estadio. El ambiente de béisbol aquí es excelente, y hay muchos paisajes urbanos cercanos."
+      },
+      {
+        "name": "Sofía Méndez",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "Hermoso estadio, lleno del encanto del béisbol dominicano. El paisaje es inolvidable, definitivamente vale la pena visitarlo."
+      },
+      {
+        "name": "Miguel Herrera",
+        "date": "hace 3 meses",
+        "rating": 4,
+        "text": "Lugar deportivo interesante. Experimento la cultura del béisbol de cerca, recomiendo seguir las reglas de observación de juegos."
+      },
+      {
+        "name": "Laura Vargas",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "Gema deportiva de Santo Domingo. Este estadio es un lugar ideal para experimentar la cultura del béisbol, definitivamente vale la pena experimentarlo."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y Mapa",
+    "subtitle": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, República Dominicana",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Estadio Quisqueya Juan Marichal. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales",
+    "officialLinks": {
+      "lidom": {
+        "name": "Liga de Béisbol Profesional Dominicana",
+        "url": "https://www.lidom.com/"
+      },
+      "miderec": {
+        "name": "Ministerio de Deportes y Recreación de República Dominicana",
+        "url": "https://miderec.gob.do/"
+      },
+      "adn": {
+        "name": "Ayuntamiento del Distrito Nacional de Santo Domingo",
+        "url": "https://adn.gob.do/"
+      },
+      "mitur": {
+        "name": "Ministerio de Turismo de República Dominicana",
+        "url": "https://www.mitur.gob.do/"
+      },
+      "godominicanrepublic": {
+        "name": "Guía Oficial de Turismo de República Dominicana",
+        "url": "https://www.godominicanrepublic.com/"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Propiedad Intelectual",
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+      },
+      {
+        "heading": "5. Limitación de Responsabilidad",
+        "content": "Este sitio web se proporciona \"tal como está\" sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este sitio web, incluyendo, entre otros, las decisiones de viaje basadas en su contenido."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  },
+  "officialManagement": {
+    "title": "Acerca del Estadio Quisqueya Juan Marichal",
+    "text": "El Estadio Quisqueya Juan Marichal es un famoso estadio de béisbol en Santo Domingo, que cuenta con una rica historia del béisbol y excelentes instalaciones deportivas. Es un hito deportivo y cultural importante amado por los residentes locales y turistas."
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Período Inicial",
+        "title": "Período Inicial: Construcción del Estadio",
+        "plaque": "Instalaciones Deportivas (Estadio)",
+        "description": "La construcción del Estadio Quisqueya Juan Marichal tenía como objetivo proporcionar un lugar importante de béisbol para los ciudadanos de Santo Domingo, y ha sido considerado durante mucho tiempo como un hito deportivo y cultural importante por los residentes locales."
+      },
+      {
+        "year": "Siglo XX",
+        "title": "Siglo XX: Mejora de Instalaciones",
+        "plaque": "Desarrollo Deportivo (Construcción del Estadio)",
+        "description": "Con el desarrollo del béisbol en la República Dominicana, el estadio mejoró gradualmente las instalaciones para observar juegos y servicios relacionados, convirtiéndose en un lugar importante para el béisbol profesional dominicano."
+      },
+      {
+        "year": "Siglo XXI",
+        "title": "Siglo XXI: Hito Deportivo",
+        "plaque": "Identidad Deportiva (Hito Cultural)",
+        "description": "Al entrar en el siglo XXI, con su rica historia del béisbol e importante valor cultural, ha atraído a más turistas y se ha convertido en un hito deportivo y cultural importante en Santo Domingo."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, puede comenzar entrando al área del estadio desde la entrada principal en Avenida Tiradentes; luego camine alrededor del estadio para disfrutar de la arquitectura y los paisajes exteriores; si tiene suficiente tiempo, puede aprender sobre la historia del béisbol del estadio y su valor cultural. Finalmente, explore el paisaje urbano alrededor del estadio y sienta el encanto de la capital dominicana."
+  }
+}
