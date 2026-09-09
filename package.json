@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "optimize:images": "node scripts/optimize-images.mjs"
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "preview:cf": "npm run build && wrangler dev",
+    "deploy:cf": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "next": "^15.1.0",
@@ -22,6 +24,7 @@
     "@types/react-dom": "^19.0.0",
     "sharp": "^0.35.4",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "wrangler": "^4.130.0"
   }
 }
