@@ -1,8 +1,9 @@
 import { useTranslations } from 'next-intl';
+import { ATTRACTION } from '@/lib/attraction';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://maps.app.goo.gl/9ysiHzGa9xRznaBj7";
+  const tb = useTranslations('basicInfo');
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -16,31 +17,73 @@ export default function MapEmbed() {
         <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
+        {/* NAP 区块：名称、地址、电话、Plus Code 与地图商户信息完全一致 */}
+        <div
+          className="rounded-xl p-6 mb-8 grid grid-cols-1 sm:grid-cols-2 gap-4"
+          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+        >
+          <div>
+            <p className="text-xs uppercase tracking-wide mb-1" style={{ color: 'var(--text-muted)' }}>
+              {tb('officialName')}
+            </p>
+            <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>
+              {ATTRACTION.fullName}
+            </p>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-wide mb-1" style={{ color: 'var(--text-muted)' }}>
+              {tb('address')}
+            </p>
+            <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
+              {tb('addressValue')}
+            </p>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-wide mb-1" style={{ color: 'var(--text-muted)' }}>
+              {tb('phone')}
+            </p>
+            <a
+              href={`tel:${ATTRACTION.phoneE164}`}
+              className="font-medium hover:underline"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {ATTRACTION.phoneDisplay}
+            </a>
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-wide mb-1" style={{ color: 'var(--text-muted)' }}>
+              {tb('plusCode')}
+            </p>
+            <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
+              {tb('plusCodeValue')}
+            </p>
+          </div>
+        </div>
+
         {/* Map */}
         <div
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
           {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
+            Google Maps 嵌入（使用 Google 官方 pb 参数 embed 链接）
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Estadio+Quisqueya+Juan+Marichal,+Santo+Domingo,+Dominican+Republic&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={ATTRACTION.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Estadio Quisqueya Juan Marichal"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Google Maps - Estadio Quisqueya Juan Marichal, Santo Domingo"
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href={mapsUrl}
+            href={ATTRACTION.mapsShareUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -58,6 +101,21 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        {/* 权威外链：政府 / 官方旅游局 */}
+        <p className="mt-6 text-center text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+          {t('officialText')}{' '}
+          <a
+            href={ATTRACTION.govtTourismUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline font-medium"
+            style={{ color: 'var(--accent)' }}
+          >
+            {t('officialLinkLabel')}
+          </a>
+          .
+        </p>
       </div>
     </section>
   );

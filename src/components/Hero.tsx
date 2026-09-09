@@ -1,24 +1,39 @@
 import { useTranslations } from 'next-intl';
+import { ATTRACTION } from '@/lib/attraction';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const mapsUrl = "https://maps.app.goo.gl/9ysiHzGa9xRznaBj7";
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
-      {/* Background image */}
+      {/* Background image（WebP 优先，JPEG 兜底；主视觉预加载优先） */}
       <div className="absolute inset-0">
-        <img
-          src="/gallery/estadio-quisqueya-juan-marichal-1.jpg"
-          alt="Estadio Quisqueya Juan Marichal"
-          className="w-full h-full object-cover"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcSet={ATTRACTION.heroImagePath.replace(/\.jpe?g$/i, '.webp')}
+          />
+          <img
+            src={ATTRACTION.heroImagePath}
+            alt={`${ATTRACTION.fullName} - Main view in ${ATTRACTION.city}, ${ATTRACTION.country}`}
+            className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 w-full">
         <div className="max-w-3xl">
+          {t.has('tagline') && (
+            <p className="uppercase tracking-[0.25em] text-white/85 text-xs sm:text-sm mb-4 animate-fade-in-up">
+              {t('tagline')}
+            </p>
+          )}
+          {/* H1：全页唯一，含官方全称与城市 */}
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4 animate-fade-in-up">
             {t('title')}
           </h1>
@@ -43,7 +58,7 @@ export default function Hero() {
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
             <a
-              href={mapsUrl}
+              href={ATTRACTION.mapsShareUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"

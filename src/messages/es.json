@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Estadio Quisqueya Juan Marichal | Estadio Quisqueya Juan Marichal",
-    "description": "Explora el Estadio Quisqueya Juan Marichal en Santo Domingo, República Dominicana. Uno de los estadios de béisbol más importantes en la República Dominicana."
+    "title": "Estadio Quisqueya Juan Marichal - Boletas, Capacidad y Juegos",
+    "description": "Guía oficial del Estadio Quisqueya en Santo Domingo. Consulta la capacidad, la venta de boletas, los juegos de Licey y Escogido y los próximos conciertos."
   },
   "header": {
     "home": "Inicio",
@@ -11,15 +11,17 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
-    "title": "Estadio Quisqueya Juan Marichal — El Alma del Béisbol Dominicano",
+    "tagline": "El Alma del Béisbol Dominicano",
+    "title": "Estadio Quisqueya Juan Marichal (Santo Domingo)",
     "subtitle": "¡Siente la pasión de béisbol más pura del Caribe! El glorioso hogar de los Tigres del Licey y Leones del Escogido.",
-    "rating": "4.6",
-    "reviewCount": "9,997",
+    "rating": "4.5",
+    "reviewCount": "10,033",
     "hours": "Estadio",
     "openMaps": "Ver Ubicación"
   },
   "intro": {
-    "title": "Explora el Estadio Quisqueya Juan Marichal",
+    "title": "Acerca del Estadio Quisqueya Juan Marichal",
+    "welcome": "Bienvenido al **Estadio Quisqueya Juan Marichal**, ampliamente reconocido como el principal **Quisqueya Stadium**. Ubicado en el corazón de **Santo Domingo**, **Distrito Nacional**, **República Dominicana**, este destino es un centro principal para los aficionados al béisbol y los viajeros que visitan la región.",
     "description": "En la República Dominicana, el béisbol no es solo un deporte; es una religión. Únete a decenas de miles de fanáticos apasionados, acompañados de música latina, cerveza Presidente local y cánticos de porristas, para experimentar un juego de la LIDOM lleno de adrenalina. Este es el hogar compartido de dos equipos legendarios de béisbol dominicano: Tigres del Licey y Leones del Escogido.",
     "visitGuide": {
       "title": "Consejos de Visita",
@@ -78,7 +80,7 @@
     ]
   },
   "basicInfo": {
-    "title": "Información Básica",
+    "title": "Información General y Capacidad",
     "officialName": "Nombre Oficial",
     "officialNameValue": "Estadio Quisqueya Juan Marichal",
     "type": "Capacidad",
@@ -89,9 +91,9 @@
     "cityValue": "Santo Domingo",
     "googleRating": "Calificación de Google",
     "address": "Dirección",
-    "addressValue": "Av. Tiradentes, Ensanche La Fe, Santo Domingo",
+    "addressValue": "Av. Tiradentes 3456, Santo Domingo 10514, República Dominicana",
     "plusCode": "Código Plus",
-    "plusCodeValue": "H6G9+4P Santo Domingo 10514, República Dominicana",
+    "plusCodeValue": "F3QF+7C Santo Domingo 10514, República Dominicana",
     "phone": "Teléfono Oficial",
     "phoneValue": "+1 809-616-1224"
   },
@@ -109,19 +111,19 @@
     "tip": "Los días de juego ofrecen la mejor experiencia"
   },
   "tickets": {
-    "title": "Información Importante",
-    "outdoor": "Información de Entradas",
-    "outdoorPrice": "Dependiendo de los juegos y eventos",
-    "lighthouse": "Tarifa de Parqueo",
-    "adults": "Costo de Parqueo",
-    "adultsPrice": "Por favor, consulte la información oficial",
-    "students": "Otros Cargos",
-    "studentsPrice": "Por favor, consulte los anuncios oficiales",
-    "card": "Guías e Indicaciones",
-    "cardPrice": "Es posible que haya servicios locales disponibles en el lugar (se recomienda confirmar con anticipación). Indicaciones: 👉 [Ir al Estadio Quisqueya Juan Marichal]",
-    "officialNotice": "Para obtener las últimas actualizaciones sobre horarios de apertura e información relacionada, consulte el",
-    "officialNoticeLinkLabel": "Anuncio Oficial de la Liga de Béisbol Profesional Dominicana",
-    "officialNoticeLink": "https://www.lidom.com/"
+    "title": "Boletas y Entradas",
+    "subtitle": "Cómo comprar boletas para los juegos de los Tigres del Licey y los Leones del Escogido en el Estadio Quisqueya Juan Marichal.",
+    "onlineTitle": "Venta Oficial en Línea",
+    "onlineText": "Las boletas de temporada regular y playoffs de la LIDOM se venden por los canales oficiales de la liga y pueden agotarse rápido en los juegos populares: compra con anticipación.",
+    "onlineCta": "Comprar boletas en LIDOM",
+    "officeTitle": "Boletería del Estadio",
+    "officeText": "Los abonos y las boletas por juego se expenden en la boletería del estadio, en la Av. Tiradentes 3456. El horario y la disponibilidad dependen del calendario de juegos y eventos: confirma con la liga o los clubes antes de ir.",
+    "scheduleTitle": "Calendario y Capacidad",
+    "scheduleText": "La temporada de la LIDOM va aproximadamente de octubre a enero y el estadio tiene capacidad para unos 14,465 espectadores. Consulta el calendario oficial para conocer los juegos de hoy y los próximos.",
+    "notice": "Los precios y la disponibilidad varían según el juego y el rival. Compra solo por canales oficiales (LIDOM y los clubes) para evitar problemas con la reventa.",
+    "lidomLinkLabel": "Boletas y calendario oficial de LIDOM",
+    "directionsLabel": "Ubicación y cómo llegar",
+    "lidomUrl": "https://lidom.com/tags/?tag=boletas"
   },
   "transport": {
     "title": "Transporte",
@@ -218,9 +220,258 @@
     ]
   },
   "mapSection": {
-    "title": "Ubicación y Mapa",
-    "subtitle": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, República Dominicana",
-    "openMaps": "Ver en Google Maps"
+    "title": "Ubicación y Cómo Visitar el Quisqueya Stadium en Santo Domingo",
+    "subtitle": "Av. Tiradentes 3456 (esquina), Santo Domingo 10514, República Dominicana",
+    "openMaps": "Ver en Google Maps",
+    "officialText": "Para actualizaciones oficiales e información turística regional, visite el",
+    "officialLinkLabel": "Portal Oficial de Turismo de la República Dominicana"
+  },
+  "nearby": {
+    "title": "Monumentos y Atracciones Alrededor del Quisqueya Stadium en Santo Domingo",
+    "lead": "Al visitar el **Estadio Quisqueya Juan Marichal**, los viajeros pueden explorar fácilmente los monumentos históricos y puntos de interés cercanos, incluida la **Zona Colonial** y el **Parque Mirador del Sur**, además del Malecón y el Faro a Colón.",
+    "viewOnMaps": "Ver en Google Maps",
+    "items": [
+      {
+        "name": "Zona Colonial",
+        "note": "La ciudad colonial más antigua de América, a unos 15 minutos en coche del estadio, llena de monumentos, plazas y museos del siglo XVI."
+      },
+      {
+        "name": "Parque Mirador del Sur",
+        "note": "Un gran parque urbano con jardines, senderos y miradores en el borde sur de la ciudad, ideal para pasear antes de un juego."
+      },
+      {
+        "name": "Malecón de Santo Domingo",
+        "note": "El famoso paseo marítimo de la capital dominicana, bordeado de monumentos, restaurantes y vistas al mar."
+      },
+      {
+        "name": "Faro a Colón",
+        "note": "El complejo monumental del Faro a Colón, uno de los hitos más reconocibles de Santo Domingo."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Dónde está ubicado el Estadio Quisqueya Juan Marichal?",
+        "a": "El Estadio Quisqueya Juan Marichal está ubicado en Santo Domingo, Distrito Nacional, República Dominicana, en la Avenida Tiradentes 3456 (Código Plus F3QF+7C Santo Domingo)."
+      },
+      {
+        "q": "¿Cómo se le conoce comúnmente al Estadio Quisqueya Juan Marichal?",
+        "a": "El estadio, ampliamente conocido como Quisqueya Stadium, es el hogar compartido de los clubes de béisbol Tigres del Licey y Leones del Escogido, y sede de juegos de la Liga de Béisbol Profesional Dominicana (LIDOM)."
+      },
+      {
+        "q": "¿Cuántos espectadores puede albergar el estadio?",
+        "a": "El Estadio Quisqueya Juan Marichal tiene una capacidad aproximada de 14,465 espectadores y es famoso por su ambiente apasionado durante la temporada de la LIDOM."
+      },
+      {
+        "q": "¿Cómo puedo conseguir entradas para un juego de béisbol?",
+        "a": "Las entradas dependen del juego y del evento. Se recomienda comprarlas a través de los canales oficiales de la Liga de Béisbol Profesional Dominicana (LIDOM) y reservar con antelación para los juegos populares."
+      },
+      {
+        "q": "¿El estadio está abierto a los visitantes todos los días?",
+        "a": "El estadio abre según el calendario de juegos y eventos, principalmente durante la temporada de la LIDOM de octubre a enero. Fuera de temporada, los visitantes pueden disfrutar de recorridos exteriores. Siempre verifique el calendario más reciente antes de visitar."
+      },
+      {
+        "q": "¿Qué puedo visitar alrededor del Quisqueya Stadium en Santo Domingo?",
+        "a": "Alrededor del estadio puede explorar fácilmente monumentos de Santo Domingo como la Zona Colonial, el Parque Mirador del Sur, el Malecón y el Faro a Colón."
+      },
+      {
+        "q": "¿El Estadio Quisqueya alberga conciertos u otros eventos además del béisbol?",
+        "a": "Su uso principal es el béisbol, pero los conciertos y eventos especiales se anuncian a través de canales oficiales como la LIDOM, los clubes y la prensa local. Para saber qué hay hoy o en los próximos días en el estadio, revisa siempre los anuncios oficiales más recientes antes de planificar la visita."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Fuentes y Referencias",
+    "lead": "La información de esta página se recopila de las fuentes oficiales y públicas que se indican a continuación para ayudarle a planificar su visita con confianza.",
+    "imageRights": "Crédito de imágenes: Todas las imágenes mostradas en este sitio web siguen siendo propiedad y están protegidas por los derechos de autor de sus fotógrafos originales; se utilizan aquí únicamente con fines informativos.",
+    "items": [
+      {
+        "name": "Google Maps - Estadio Quisqueya Juan Marichal",
+        "url": "https://maps.app.goo.gl/9ysiHzGa9xRznaBj7",
+        "note": "Perfil oficial del negocio con las calificaciones, fotos y reseñas más recientes."
+      },
+      {
+        "name": "Liga de Béisbol Profesional Dominicana (LIDOM)",
+        "url": "https://www.lidom.com/",
+        "note": "Calendarios oficiales de juegos y anuncios de boletos."
+      },
+      {
+        "name": "Ministerio de Turismo de la República Dominicana (MITUR)",
+        "url": "https://www.mitur.gob.do/",
+        "note": "Autoridad oficial de turismo del gobierno."
+      },
+      {
+        "name": "Portal Oficial de Turismo de la República Dominicana",
+        "url": "https://www.godominicanrepublic.com/",
+        "note": "Guía de destinos e información turística de MITUR."
+      }
+    ]
+  },
+  "weather": {
+    "title": "El Tiempo en Santo Domingo",
+    "subtitle": "Condiciones en vivo, pronóstico a 7 días y consejos prácticos para tu visita al Estadio Quisqueya Juan Marichal",
+    "current": "Tiempo actual",
+    "forecast": "Pronóstico a 7 días",
+    "today": "Hoy",
+    "feels": "Sensación",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "updated": "Actualizado",
+    "umbrellaTip": "Hoy hay alta probabilidad de lluvia; es buena idea llevar paraguas o impermeable.",
+    "unavailable": "El tiempo en vivo no está disponible temporalmente. Inténtelo más tarde.",
+    "loading": "Cargando el tiempo más reciente...",
+    "windUnit": "km/h",
+    "rainChance": "Lluvia hoy",
+    "uvLabel": "Índice UV",
+    "windLevel": "Viento nivel {level}",
+    "uvCat": {
+      "low": "Bajo",
+      "moderate": "Moderado",
+      "high": "Alto",
+      "veryHigh": "Muy alto",
+      "extreme": "Extremo"
+    },
+    "advice": {
+      "outfit": "Qué ponerse",
+      "activity": "Qué hacer",
+      "items": "Qué llevar",
+      "riskHeader": "Avisos de riesgo",
+      "types": {
+        "sunnyOutfit": "Cielo despejado: lo más cómodo es ropa ligera y transpirable.",
+        "heatOutfit": "Hace calor: elige telas de tonos claros, transpirables y que absorban el sudor.",
+        "layersOutfit": "Gran diferencia térmica entre día y noche: lleva una capa ligera para quitarte o ponerte fácilmente.",
+        "coldOutfit": "Temperaturas bajas: abrígate bien antes de salir.",
+        "lightRainOutfit": "Con lluvia ligera el piso resbala: camina con cuidado.",
+        "rainGearOutfit": "Lluvia y viento: lo mejor es una chaqueta impermeable o un poncho.",
+        "windyOutfit": "El viento puede llevarse el gorro; los vestidos largos sueltos no son buena idea.",
+        "clearSkyActivity": "Cielo despejado ideal para recorrer la ciudad; cerca del mar también es un buen momento para ver la puesta de sol.",
+        "cloudyActivity": "Día templado, con luz suave y sin sol fuerte: perfecto para caminatas largas y fotos.",
+        "heatActivity": "Evita las horas de mediodía y no pases demasiado tiempo seguido al aire libre.",
+        "rainProbActivity": "Es probable que llueva: prioriza museos o lugares techados y deja la playa o la montaña para otro día.",
+        "lightRainActivity": "La lluvia ligera resta encanto a los planes al aire libre; sal preparado.",
+        "rainHeavyActivity": "Mejor evitar el aire libre; gradas o espectáculos descubiertos y paseos en barco pueden suspenderse. Consulta el estado antes de salir.",
+        "thunderActivity": "Con tormentas, las actividades acuáticas y los planes al aire libre probablemente se suspenden o retrasan.",
+        "windStrongActivity": "El viento fuerte puede suspender paseos en barco y atracciones al aire libre cerca de la costa; confírmalo antes de ir.",
+        "fogActivity": "Niebla con poca visibilidad: no es buen momento para miradores, senderismo o ver el mar.",
+        "heatItem": "Protector solar, gafas de sol, sombrero y suficiente agua para beber.",
+        "uvItem": "Protector solar, gafas de sol y sombrero.",
+        "layersItem": "Una chaqueta o suéter ligero.",
+        "coldItem": "Abrigo grueso, bufanda y más capas de abrigo.",
+        "rainProbItem": "Protección contra la lluvia: paraguas plegable o poncho ligero.",
+        "lightRainItem": "Un paraguas plegable.",
+        "rainHeavyItem": "Impermeable (con viento, evita los paraguas de mango largo).",
+        "thunderItem": "Quédate en un lugar techado o bajo techo sólido si es posible.",
+        "windItem": "Sujeta bien el gorro y los objetos sueltos.",
+        "fogItem": "Una mascarilla si la necesitas.",
+        "rainHeavyRisk": "Lluvia fuerte: evita barrancos, zonas bajas y calles anegadas.",
+        "thunderRisk": "Riesgo de rayos: no te refugies bajo árboles ni en lugares altos; sal del agua o del sendero y vuelve adentro.",
+        "windGaleRisk": "Viento muy fuerte: aléjate de vallas, estructuras temporales y rocas junto al mar.",
+        "fogRisk": "Poca visibilidad: conduce despacio; los ferris o vuelos pueden sufrir retrasos."
+      }
+    },
+    "groups": {
+      "clear": "Despejado",
+      "partly": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "fog": "Niebla",
+      "rain": "Lluvia",
+      "snow": "Nieve",
+      "storm": "Tormentas"
+    }
+  },
+  "amenities": {
+    "title": "Servicios e Información Práctica",
+    "subtitle": "Guía práctica de baños, estacionamiento, restaurantes, alojamiento, compras, combustible y más cerca del estadio.",
+    "disclaimer": "Nota de neutralidad: este sitio es un sitio web educativo independiente y sin fines de lucro. No recomendamos ningún negocio específico. La siguiente lista solo describe los tipos generales de instalaciones disponibles, para que usted elija libremente según sus necesidades.",
+    "categories": [
+      {
+        "id": "wc",
+        "title": "Baños y Accesibilidad",
+        "items": [
+          "Los baños públicos están disponibles cerca de las puertas principales y en los pasillos los días de juego y eventos.",
+          "El estadio cuenta con baños accesibles y asientos reservados; el personal del lugar puede asistir a los visitantes con movilidad reducida.",
+          "En días sin evento, los baños de centros comerciales, parques y restaurantes cercanos son una opción conveniente."
+        ]
+      },
+      {
+        "id": "parking",
+        "title": "Estacionamiento",
+        "items": [
+          "El estacionamiento en la calle y los lotes de pago alrededor del recinto se llenan rápido los días de juego; llegue con tiempo.",
+          "En los grandes eventos hay áreas oficiales de estacionamiento y servicio de valet; siga la señalización y las indicaciones del personal.",
+          "Si prefiere no conducir, las zonas de descenso de taxis y aplicaciones de transporte cerca de las puertas son una alternativa fácil."
+        ]
+      },
+      {
+        "id": "dining",
+        "title": "Restaurantes y Bocadillos",
+        "items": [
+          "Los puestos de concesión dentro del estadio sirven bocadillos típicos, comida caliente y bebidas los días de evento.",
+          "Alrededor del estadio hay una gran variedad de restaurantes, desde comida casual hasta cadenas de servicio rápido, con cocina dominicana e internacional.",
+          "Las filas crecen antes del juego; llegar un poco temprano permite disfrutar la comida con calma."
+        ]
+      },
+      {
+        "id": "stay",
+        "title": "Dónde Alojarse",
+        "items": [
+          "La mayoría de los visitantes se hospeda en distritos céntricos como Gazcue, Naco, Piantini o Ensanche La Fe, todos a corta distancia en coche del estadio.",
+          "En estos barrios hay hoteles, hostales y apartamentos de alquiler por temporada de distintas gamas de precios.",
+          "Durante la temporada de la LIDOM (octubre a enero) y los grandes eventos, reserve el alojamiento con mucha antelación."
+        ]
+      },
+      {
+        "id": "shopping",
+        "title": "Compras y Necesidades Cotidianas",
+        "items": [
+          "Hay supermercados y tiendas de conveniencia en los barrios que rodean el estadio para las compras diarias.",
+          "Hay cajeros automáticos cerca del estadio; se recomienda llevar algo de efectivo para la comida callejera y los pequeños vendedores.",
+          "Se pueden encontrar farmacias cercanas, y hospitales y clínicas están a corta distancia en caso de necesidad."
+        ]
+      },
+      {
+        "id": "fuel",
+        "title": "Combustible, Carga EV y Desplazamiento",
+        "items": [
+          "Hay estaciones de servicio a lo largo de la Avenida Tiradentes y otras vías principales para repostar los autos de alquiler.",
+          "Los puntos públicos de carga para vehículos eléctricos aún son limitados en la ciudad; planifique la carga con cuidado si alquila un auto eléctrico.",
+          "Considere llenar el tanque antes de ir al aeropuerto o al campo después del juego."
+        ]
+      }
+    ]
+  },
+  "story": {
+    "title": "Historia y Cultura: de Quisqueya a Juan Marichal",
+    "subtitle": "Cómo un estadio de 1955 se convirtió en una de las catedrales vivas del béisbol dominicano",
+    "note": "Nota educativa: esta página es un recurso independiente y sin fines de lucro. Los datos históricos siguen registros públicos y fuentes oficiales y pueden evolucionar con el tiempo.",
+    "parts": [
+      {
+        "heading": "Un Nombre que Significa 'Madre de Todas las Tierras'",
+        "text": "Quisqueya es el nombre poético que el pueblo taíno dio a la isla de La Española y, más tarde, a la República Dominicana. Elegirlo para el nuevo estadio de la capital en los años cincuenta fue una declaración de orgullo nacional: el **Estadio Quisqueya** no sería solo un estadio, sino un escenario para el deporte favorito del país."
+      },
+      {
+        "heading": "La Noche en que el Béisbol Cobró Vida (1955)",
+        "text": "El recinto abrió el **23 de octubre de 1955** e hizo historia bajo las luces en su primer partido: un juego nocturno entre los **Tigres del Licey** y las **Estrellas Orientales**. Fue el primer estadio de la República Dominicana con iluminación, lo que llevó el béisbol profesional a la noche y abrió una nueva era para los aficionados que trabajaban durante el día."
+      },
+      {
+        "heading": "Dos Gigantes Comparten un Mismo Hogar",
+        "text": "Pocos estadios del mundo pueden decir lo que este: es, al mismo tiempo, la casa de **dos** clubes profesionales de la liga invernal - los **Tigres del Licey** (fundados en 1907) y los **Leones del Escogido** (fundados en 1921). Su rivalidad, el 'Clásico' del béisbol dominicano, hace que una noche en Quisqueya se sienta como un museo vivo de pasión y tradición."
+      },
+      {
+        "heading": "Un Nombre que Honra a una Leyenda: Juan Marichal",
+        "text": "En **2015**, la Ley 11-15 renombró oficialmente el recinto como **Estadio Quisqueya Juan Marichal**, en honor al lanzador de Monte Cristi que deslumbró en las Grandes Ligas en los años sesenta como el 'Dominican Dandy' y se convirtió en el primer dominicano exaltado al Salón de la Fama del Béisbol (1983). La silueta y el logo que reciben hoy a los visitantes son un homenaje diario a su legado."
+      },
+      {
+        "heading": "Escenario de la Serie del Caribe y Noches Internacionales",
+        "text": "Por su ambiente y tradición, Quisqueya ha albergado la **Serie del Caribe** en diez ocasiones - la más reciente en **2022** -, cuando se enfrentan los campeones de las ligas del Caribe. En **2024**, el estadio recibió un histórico juego de la gira mundial de la MLB entre los Boston Red Sox y los Tampa Bay Rays, y en los próximos años se prevén más eventos internacionales."
+      },
+      {
+        "heading": "El Sonido del Béisbol Dominicano",
+        "text": "Un juego en Quisqueya es tanto una experiencia musical como deportiva: merengue y bachata por los altavoces, trompetas, tambores y silbatos en las gradas, aficionados animando al Licey o al Escogido, y vendedores recorriendo los pasillos con empanadas, yaniqueques y cerveza Presidente fría. Para muchos dominicanos, este es el lugar donde se siente el latido del país cada invierno."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Estadio Quisqueya Juan Marichal. Todos los derechos reservados.",
@@ -351,7 +602,7 @@
     "text": "El Estadio Quisqueya Juan Marichal es un famoso estadio de béisbol en Santo Domingo, que cuenta con una rica historia del béisbol y excelentes instalaciones deportivas. Es un hito deportivo y cultural importante amado por los residentes locales y turistas."
   },
   "historyTimeline": {
-    "title": "Cronología Histórica",
+    "title": "Historia y Significado del Estadio Quisqueya Juan Marichal",
     "items": [
       {
         "year": "1955",

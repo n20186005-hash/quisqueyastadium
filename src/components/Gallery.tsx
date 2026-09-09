@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
+import { ATTRACTION } from '@/lib/attraction';
 
 const photoFiles = [
   'estadio-quisqueya-juan-marichal-1.jpg',
@@ -22,16 +23,31 @@ const photoFiles = [
   'estadio-quisqueya-juan-marichal-16.jpg',
 ];
 
+function webpPath(file: string) {
+  return `/gallery/${file.replace(/\.jpe?g$/i, '')}.webp`;
+}
+function thumbJpgPath(file: string) {
+  return `/gallery/thumbs/${file.replace(/\.jpe?g$/i, '')}-640.jpg`;
+}
+function thumbWebpPath(file: string) {
+  return `/gallery/thumbs/${file.replace(/\.jpe?g$/i, '')}-640.webp`;
+}
+
 export default function Gallery() {
   const t = useTranslations('gallery');
   const captions = t.raw('captions') as string[];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
-  const mapsUrl = "https://maps.app.goo.gl/9ysiHzGa9xRznaBj7";
+  const mapsUrl = ATTRACTION.mapsShareUrl;
 
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Estadio Quisqueya Juan Marichal ${i + 1}`,
+    fullWebp: webpPath(file),
+    thumbJpg: thumbJpgPath(file),
+    thumbWebp: thumbWebpPath(file),
+    alt: captions?.[i]
+      ? `${captions[i]} - ${ATTRACTION.fullName} in ${ATTRACTION.city}, ${ATTRACTION.country}`
+      : `${ATTRACTION.fullName} photo ${i + 1} in ${ATTRACTION.city}`,
   }));
 
   const visiblePhotos = photos;
@@ -71,13 +87,17 @@ export default function Gallery() {
                   className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
                   onClick={() => openLightbox(i)}
                 >
-                  <img
-                    src={photo.src}
-                    alt={photo.alt}
-                    className="w-full h-full object-cover rounded-lg"
-                    style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source type="image/webp" srcSet={photo.thumbWebp} />
+                    <img
+                      src={photo.thumbJpg}
+                      alt={photo.alt}
+                      className="w-full h-full object-cover rounded-lg"
+                      style={{ minHeight: i === 0 ? '400px' : '180px' }}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
                       {photo.alt}
@@ -128,12 +148,16 @@ export default function Gallery() {
             </svg>
           </button>
 
-          <img
-            src={photos[currentIndex].src}
-            alt={photos[currentIndex].alt}
-            className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
-            onClick={(e) => e.stopPropagation()}
-          />
+          <picture>
+            <source type="image/webp" srcSet={photos[currentIndex].fullWebp} />
+            <img
+              src={photos[currentIndex].src}
+              alt={photos[currentIndex].alt}
+              className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+              decoding="async"
+            />
+          </picture>
 
           <button
             onClick={(e) => { e.stopPropagation(); goToNext(); }}

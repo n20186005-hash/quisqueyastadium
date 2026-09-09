@@ -1,8 +1,10 @@
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import { ATTRACTION, SITE_URL } from '@/lib/attraction';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const tb = useTranslations('basicInfo');
   const locale = useLocale();
   const prefix = `/${locale}`;
 
@@ -52,9 +54,24 @@ export default function Footer() {
         </div>
 
         <div
-          className="pt-6 text-center text-sm space-y-4"
+          className="pt-6 pb-6 text-center text-xs space-y-2"
           style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
         >
+          {/* NAP 一致性：官方名称 / 地址 / 电话 与 Google Maps 商户资料保持一致 */}
+          <p className="max-w-3xl mx-auto leading-relaxed">
+            <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>{ATTRACTION.fullName}</span>
+            <span aria-hidden="true"> · </span>
+            {tb('addressValue')}
+            <span aria-hidden="true"> · </span>
+            <a href={`tel:${ATTRACTION.phoneE164}`} className="hover:underline" style={{ color: 'var(--text-muted)' }}>
+              {ATTRACTION.phoneDisplay}
+            </a>
+          </p>
+          <p className="max-w-3xl mx-auto leading-relaxed">
+            <a href={`${SITE_URL}/${locale}`} className="hover:underline">
+              {SITE_URL}
+            </a>
+          </p>
           <p>{t('rights')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
         </div>

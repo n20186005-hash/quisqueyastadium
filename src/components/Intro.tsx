@@ -1,4 +1,5 @@
 import { useTranslations, useMessages } from 'next-intl';
+import { GEO_HIERARCHY } from '@/lib/attraction';
 
 export default function Intro() {
   const t = useTranslations('intro');
@@ -10,6 +11,22 @@ export default function Intro() {
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        {/* 地理归属层级：Estadio Quisqueya Juan Marichal → Santo Domingo → Distrito Nacional → Dominican Republic */}
+        <nav
+          aria-label="Breadcrumb"
+          className="text-xs sm:text-sm mb-6 overflow-x-auto whitespace-nowrap"
+          style={{ color: 'var(--text-muted)' }}
+        >
+          {GEO_HIERARCHY.map((part, i) => (
+            <span key={part}>
+              {i > 0 && <span className="mx-1.5" style={{ color: 'var(--border-color)' }}>›</span>}
+              <span className={i === 0 ? 'font-medium' : ''} style={i === 0 ? { color: 'var(--text-primary)' } : undefined}>
+                {part}
+              </span>
+            </span>
+          ))}
+        </nav>
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -17,6 +34,20 @@ export default function Intro() {
           {t('title')}
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
+
+        {/* 首段等位声明：域名含义与官方全称在语义层面等同 */}
+        {t.has('welcome') && (
+          <p
+            className="text-lg font-light leading-relaxed mb-6"
+            style={{ color: 'var(--text-primary)' }}
+            dangerouslySetInnerHTML={{
+              __html: t('welcome').replace(
+                /\*\*(.*?)\*\*/g,
+                '<strong style="color: var(--text-primary); font-weight: 600;">$1</strong>'
+              ),
+            }}
+          />
+        )}
 
         <p
           className="text-lg leading-relaxed mb-12"

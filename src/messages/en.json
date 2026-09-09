@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Estadio Quisqueya Juan Marichal | Quisqueya Juan Marichal Stadium",
-    "description": "Explore Estadio Quisqueya Juan Marichal in Santo Domingo, Dominican Republic. One of the most important baseball stadiums in the Dominican Republic."
+    "title": "Quisqueya Stadium (Juan Marichal) - Tickets & Schedule",
+    "description": "Explore Estadio Quisqueya Juan Marichal in Santo Domingo. Find game schedules, ticket info, capacity and baseball guides for visitors."
   },
   "header": {
     "home": "Home",
@@ -11,15 +11,17 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Estadio Quisqueya Juan Marichal — The Soul of Dominican Baseball",
+    "tagline": "The Soul of Dominican Baseball",
+    "title": "Estadio Quisqueya Juan Marichal (Santo Domingo)",
     "subtitle": "Feel the purest baseball passion in the Caribbean! The glorious home of Tigres del Licey and Leones del Escogido.",
-    "rating": "4.6",
-    "reviewCount": "9,997",
+    "rating": "4.5",
+    "reviewCount": "10,033",
     "hours": "Stadium",
     "openMaps": "View Location"
   },
   "intro": {
-    "title": "Explore Estadio Quisqueya Juan Marichal",
+    "title": "About Estadio Quisqueya Juan Marichal",
+    "welcome": "Welcome to **Estadio Quisqueya Juan Marichal**, widely recognized as the central **Quisqueya Stadium**. Located in the heart of **Santo Domingo**, **Distrito Nacional**, **Dominican Republic**, this destination serves as a primary hub for baseball fans and travelers visiting the region.",
     "description": "In the Dominican Republic, baseball is not just a sport; it's a religion. Join tens of thousands of passionate fans, accompanied by Latin music, local Presidente beer, and cheerleader chants, to experience an adrenaline-pumping LIDOM game. This is the shared home of two legendary Dominican baseball teams: Tigres del Licey and Leones del Escogido.",
     "visitGuide": {
       "title": "Visiting Tips",
@@ -78,7 +80,7 @@
     ]
   },
   "basicInfo": {
-    "title": "Basic Information",
+    "title": "Overview, Capacity & Home Teams",
     "officialName": "Official Name",
     "officialNameValue": "Estadio Quisqueya Juan Marichal",
     "type": "Capacity",
@@ -89,9 +91,9 @@
     "cityValue": "Santo Domingo",
     "googleRating": "Google Rating",
     "address": "Address",
-    "addressValue": "Av. Tiradentes, Ensanche La Fe, Santo Domingo",
+    "addressValue": "Av. Tiradentes 3456, Santo Domingo 10514, Dominican Republic",
     "plusCode": "Plus Code",
-    "plusCodeValue": "H6G9+4P Santo Domingo 10514, Dominican Republic",
+    "plusCodeValue": "F3QF+7C Santo Domingo 10514, Dominican Republic",
     "phone": "Official Phone",
     "phoneValue": "+1 809-616-1224"
   },
@@ -109,19 +111,19 @@
     "tip": "Game days offer the best experience"
   },
   "tickets": {
-    "title": "Important Information",
-    "outdoor": "Ticket Information",
-    "outdoorPrice": "Depending on games and events",
-    "lighthouse": "Parking Fee",
-    "adults": "Parking Cost",
-    "adultsPrice": "Please check official information",
-    "students": "Other Fees",
-    "studentsPrice": "Please check official announcements",
-    "card": "Guide Services & Directions",
-    "cardPrice": "Local services may be available on-site (recommend confirming in advance). Directions: 👉 [Go to Estadio Quisqueya Juan Marichal]",
-    "officialNotice": "For the latest updates on opening hours and related information, please refer to the",
-    "officialNoticeLinkLabel": "Dominican Professional Baseball League Official Announcement",
-    "officialNoticeLink": "https://www.lidom.com/"
+    "title": "Tickets & How to Buy",
+    "subtitle": "How to buy baseball tickets for Tigres del Licey and Leones del Escogido home games at Estadio Quisqueya Juan Marichal.",
+    "onlineTitle": "Buy Online (Official)",
+    "onlineText": "LIDOM regular-season and playoff tickets are sold through official league channels and can sell out fast for popular matchups - buy in advance.",
+    "onlineCta": "Buy tickets on LIDOM",
+    "officeTitle": "Stadium Box Office (Boletería)",
+    "officeText": "Season passes (abonos) and game-day tickets are sold at the stadium box office on Avenida Tiradentes 3456. Opening hours and availability depend on the game and event schedule, so confirm with the league or teams first.",
+    "scheduleTitle": "Schedule & Capacity",
+    "scheduleText": "The LIDOM season runs roughly from October to January and the stadium seats about 14,465 spectators. See the official calendar for today's and upcoming home games.",
+    "notice": "Prices and availability vary by game and opponent. Only buy through official channels (LIDOM and the clubs) to avoid resale problems.",
+    "lidomLinkLabel": "Official LIDOM tickets & schedule",
+    "directionsLabel": "Location & directions",
+    "lidomUrl": "https://lidom.com/tags/?tag=boletas"
   },
   "transport": {
     "title": "Transportation",
@@ -218,9 +220,258 @@
     ]
   },
   "mapSection": {
-    "title": "Location & Map",
-    "subtitle": "Avenue, corner of, Tiradentes 3456, Santo Domingo 10514, Dominican Republic",
-    "openMaps": "View on Google Maps"
+    "title": "Location & How to Visit Quisqueya Stadium in Santo Domingo",
+    "subtitle": "Av. Tiradentes 3456 (corner), Santo Domingo 10514, Dominican Republic",
+    "openMaps": "View on Google Maps",
+    "officialText": "For official updates and regional tourism information, visit the",
+    "officialLinkLabel": "Dominican Republic Official Tourism Portal"
+  },
+  "nearby": {
+    "title": "Landmarks & Attractions Around Quisqueya Stadium in Santo Domingo",
+    "lead": "When visiting **Estadio Quisqueya Juan Marichal**, travelers can easily explore surrounding historical landmarks and points of interest, including **Zona Colonial (Colonial City)** and **Parque Mirador del Sur**, plus the Malecón waterfront and Faro a Colón.",
+    "viewOnMaps": "View on Google Maps",
+    "items": [
+      {
+        "name": "Zona Colonial (Colonial City)",
+        "note": "The oldest colonial city in the Americas, about 15 minutes by car from the stadium, full of 16th-century monuments, plazas and museums."
+      },
+      {
+        "name": "Parque Mirador del Sur",
+        "note": "A large urban park with gardens, trails and viewpoints along the southern edge of the city, ideal for a relaxing stroll before a game."
+      },
+      {
+        "name": "Malecón de Santo Domingo",
+        "note": "The famous seaside boulevard of the Dominican capital, lined with monuments, restaurants and ocean views."
+      },
+      {
+        "name": "Faro a Colón",
+        "note": "The Columbus Lighthouse monument complex, one of the most recognizable landmarks of Santo Domingo."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Where is Estadio Quisqueya Juan Marichal located?",
+        "a": "Estadio Quisqueya Juan Marichal is located in Santo Domingo, Distrito Nacional, Dominican Republic, at Avenida Tiradentes 3456 (Plus Code F3QF+7C Santo Domingo)."
+      },
+      {
+        "q": "What is Estadio Quisqueya Juan Marichal commonly known as?",
+        "a": "The stadium, widely recognized as Quisqueya Stadium, is the shared home of the Tigres del Licey and Leones del Escogido baseball clubs and hosts Dominican Professional Baseball League (LIDOM) games."
+      },
+      {
+        "q": "How many spectators can the stadium hold?",
+        "a": "Estadio Quisqueya Juan Marichal has an approximate capacity of 14,465 spectators and is famous for its passionate atmosphere during the LIDOM season."
+      },
+      {
+        "q": "How can I get tickets to a baseball game?",
+        "a": "Tickets depend on the game and event. It is recommended to buy them through the official Dominican Professional Baseball League (LIDOM) channels and book early for popular games."
+      },
+      {
+        "q": "Is the stadium open to visitors every day?",
+        "a": "The stadium opens according to the schedule of games and events, mainly during the LIDOM season from October to January. Outside the season, visitors can enjoy exterior sightseeing. Always check the latest schedule before visiting."
+      },
+      {
+        "q": "What can I visit around Quisqueya Stadium in Santo Domingo?",
+        "a": "Around the stadium you can easily explore Santo Domingo landmarks such as Zona Colonial (Colonial City), Parque Mirador del Sur, the Malecón waterfront and Faro a Colón."
+      },
+      {
+        "q": "Does Quisqueya Stadium host concerts or events besides baseball?",
+        "a": "Baseball is its main use, but special events and concerts are announced through official channels such as LIDOM, the teams and local press. To find out what is on at the stadium today or in the coming days, always check the latest official announcements before planning your visit."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & References",
+    "lead": "The information on this page is compiled from the official and public sources below to help you plan your visit with confidence.",
+    "imageRights": "Image credit: All images displayed on this website remain the property and copyright of their original photographers and are used here for informational purposes only.",
+    "items": [
+      {
+        "name": "Google Maps - Estadio Quisqueya Juan Marichal",
+        "url": "https://maps.app.goo.gl/9ysiHzGa9xRznaBj7",
+        "note": "Official business profile with the latest ratings, photos and reviews."
+      },
+      {
+        "name": "Dominican Professional Baseball League (LIDOM)",
+        "url": "https://www.lidom.com/",
+        "note": "Official game schedules and ticket announcements."
+      },
+      {
+        "name": "Ministry of Tourism of the Dominican Republic (MITUR)",
+        "url": "https://www.mitur.gob.do/",
+        "note": "Official government tourism authority."
+      },
+      {
+        "name": "Dominican Republic Official Tourism Portal",
+        "url": "https://www.godominicanrepublic.com/",
+        "note": "Destination guide and travel information by MITUR."
+      }
+    ]
+  },
+  "weather": {
+    "title": "Weather in Santo Domingo",
+    "subtitle": "Live conditions, a 7-day outlook and practical visit tips for Estadio Quisqueya Juan Marichal",
+    "current": "Current Weather",
+    "forecast": "7-Day Forecast",
+    "today": "Today",
+    "feels": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "updated": "Updated",
+    "umbrellaTip": "Rain is likely today, so it is a good idea to bring an umbrella or rain gear.",
+    "unavailable": "Live weather is temporarily unavailable. Please try again later.",
+    "loading": "Loading the latest weather...",
+    "windUnit": "km/h",
+    "rainChance": "Rain today",
+    "uvLabel": "UV index",
+    "windLevel": "Wind level {level}",
+    "uvCat": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High",
+      "veryHigh": "Very high",
+      "extreme": "Extreme"
+    },
+    "advice": {
+      "outfit": "What to Wear",
+      "activity": "What to Do",
+      "items": "What to Pack",
+      "riskHeader": "Safety Alerts",
+      "types": {
+        "sunnyOutfit": "Clear skies: light, breathable clothing is most comfortable.",
+        "heatOutfit": "It is hot: choose light-coloured, breathable, sweat-friendly fabrics.",
+        "layersOutfit": "Large day-night temperature swing: bring a light layer to adjust easily.",
+        "coldOutfit": "Chilly temperatures: dress warmly before heading out.",
+        "lightRainOutfit": "Light rain makes pavements slippery, so watch your step.",
+        "rainGearOutfit": "Rain and wind: wear a waterproof jacket or poncho.",
+        "windyOutfit": "Wind can blow hats away; loose long dresses are not ideal.",
+        "clearSkyActivity": "Clear skies are great for exploring the city; near the sea it is also a lovely moment for a sunset.",
+        "cloudyActivity": "Mild with soft light and no harsh sun: ideal for long outdoor walks and photos.",
+        "heatActivity": "Avoid midday hours and keep continuous outdoor time short.",
+        "rainProbActivity": "Rain is likely: choose museums or covered venues first, and postpone beach or mountain plans.",
+        "lightRainActivity": "Light rain makes open-air plans less enjoyable, so go prepared.",
+        "rainHeavyActivity": "Outdoor plans are not advised; open-air stands, shows or boat trips may pause - check the latest status before heading out.",
+        "thunderActivity": "With thunderstorms, water activities and open-air plans are likely to be suspended or delayed.",
+        "windStrongActivity": "Strong wind may suspend coastal boat trips and some open-air rides; confirm before you go.",
+        "fogActivity": "Dense fog limits views: not the best time for viewpoints, hiking or sea views.",
+        "heatItem": "Sunscreen, sunglasses, a sun hat and plenty of drinking water.",
+        "uvItem": "Sunscreen, sunglasses and a sun hat.",
+        "layersItem": "A light jacket or sweater.",
+        "coldItem": "A warm coat, scarf and other warm layers.",
+        "rainProbItem": "Rain gear, such as a foldable umbrella or light poncho.",
+        "lightRainItem": "A compact umbrella.",
+        "rainHeavyItem": "A raincoat (avoid long-handled umbrellas in the wind).",
+        "thunderItem": "Stay indoors or under solid cover when possible.",
+        "windItem": "Secure your hat and any loose items.",
+        "fogItem": "A face mask if you need one.",
+        "rainHeavyRisk": "Heavy rain: avoid ravines, low-lying areas and flooded streets.",
+        "thunderRisk": "Lightning risk: do not shelter under trees or on high ground; leave the water or the trail and head indoors.",
+        "windGaleRisk": "Gale-force wind: stay away from hoardings, temporary structures and coastal rocks.",
+        "fogRisk": "Poor visibility: drive slowly; ferries or flights may be delayed."
+      }
+    },
+    "groups": {
+      "clear": "Clear",
+      "partly": "Partly Cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "rain": "Rain",
+      "snow": "Snow",
+      "storm": "Thunderstorm"
+    }
+  },
+  "amenities": {
+    "title": "Amenities & Practical Facilities",
+    "subtitle": "Practical guidance on restrooms, parking, dining, accommodation, shopping, fuel and more near the stadium.",
+    "disclaimer": "Neutrality note: This is an independent, non-profit educational website. We do not recommend any specific business. The list below only describes the general types of facilities available, so you can choose freely according to your own needs.",
+    "categories": [
+      {
+        "id": "wc",
+        "title": "Restrooms & Accessibility",
+        "items": [
+          "Public restrooms are available near the main gates and on the concourses on game and event days.",
+          "Accessible restrooms and reserved seating exist at the stadium; on-site staff can assist visitors with reduced mobility.",
+          "On non-event days, restrooms in nearby shopping centres, parks and restaurants are a convenient option."
+        ]
+      },
+      {
+        "id": "parking",
+        "title": "Parking",
+        "items": [
+          "Street parking and paid surface lots around the venue fill up quickly on game days, so plan to arrive early.",
+          "Official parking areas and valet service operate for major events; follow local signage and on-site staff directions.",
+          "If you prefer not to drive, taxi and ride-hailing drop-off zones near the gates are an easy alternative."
+        ]
+      },
+      {
+        "id": "dining",
+        "title": "Dining & Snacks",
+        "items": [
+          "Concession stands inside the stadium serve typical ballpark snacks, hot food and drinks on event days.",
+          "The surrounding neighbourhood offers a wide range of restaurants, from casual dining to quick-service options, covering Dominican dishes and international cuisines.",
+          "Lines grow before game time, so arriving a little early makes it easier to enjoy your meal at a relaxed pace."
+        ]
+      },
+      {
+        "id": "stay",
+        "title": "Where to Stay",
+        "items": [
+          "Most visitors stay in central districts such as Gazcue, Naco, Piantini or Ensanche La Fe, all within a short drive of the stadium.",
+          "Hotels, hostels and short-stay apartments across different price ranges are available in these neighbourhoods.",
+          "During the LIDOM season (October to January) and major events, it is wise to book accommodation well in advance."
+        ]
+      },
+      {
+        "id": "shopping",
+        "title": "Shopping & Everyday Needs",
+        "items": [
+          "Supermarkets and convenience stores operate in the surrounding neighbourhoods for everyday shopping.",
+          "ATMs are available near the stadium; carrying some cash is recommended for street food and small vendors.",
+          "Pharmacies can be found nearby, and hospitals and clinics are a short drive away if needed."
+        ]
+      },
+      {
+        "id": "fuel",
+        "title": "Fuel, EV & Getting Around",
+        "items": [
+          "Gas stations operate along Avenida Tiradentes and other main roads, convenient for refuelling rental cars.",
+          "Public electric-vehicle charging points are still limited in the city, so plan charging carefully if you rent an EV.",
+          "Consider a full tank before heading to the airport or to the countryside after the game."
+        ]
+      }
+    ]
+  },
+  "story": {
+    "title": "Story & Culture: From Quisqueya to Juan Marichal",
+    "subtitle": "How a 1955 ballpark became one of the living cathedrals of Dominican baseball",
+    "note": "Educational note: this page is an independent, non-profit resource. Historical details follow public records and official sources, and may evolve over time.",
+    "parts": [
+      {
+        "heading": "A Name That Means 'Mother of All Lands'",
+        "text": "Quisqueya is the poetic name the Taíno people gave to the island of Hispaniola and, later, to the Dominican Republic. Choosing it for the capital's new ballpark in the 1950s was a statement of national pride: **Estadio Quisqueya** would be not just a stadium, but a stage for the country's favourite game."
+      },
+      {
+        "heading": "The Night Baseball Came Alive (1955)",
+        "text": "The venue opened on **October 23, 1955** and made history under the floodlights in its very first game: a night match between **Tigres del Licey** and **Estrellas Orientales**. It was the first ballpark in the Dominican Republic equipped with lighting, carrying professional baseball into the evening and opening a new era for fans who worked during the day."
+      },
+      {
+        "heading": "Two Giants Sharing One Home",
+        "text": "Few ballparks anywhere can claim what this one does: it is simultaneously the home of **two** professional winter-league clubs - the **Tigres del Licey** (founded in 1907) and the **Leones del Escogido** (founded in 1921). Their rivalry, the 'Clásico' of Dominican baseball, makes a night at Quisqueya feel like a living museum of passion and tradition."
+      },
+      {
+        "heading": "A Name That Honours a Legend: Juan Marichal",
+        "text": "In **2015**, Law 11-15 officially renamed the venue **Estadio Quisqueya Juan Marichal**, in honour of the pitcher from Monte Cristi who dazzled Major League Baseball in the 1960s as the 'Dominican Dandy' and became the first Dominican player inducted into the National Baseball Hall of Fame (1983). The silhouette and logo that greet visitors today are a daily tribute to his legacy."
+      },
+      {
+        "heading": "Stage of the Caribbean Series and International Nights",
+        "text": "Because of its atmosphere and tradition, Quisqueya has hosted the **Caribbean Series** ten times - most recently in **2022** - when the champions of the Caribbean leagues meet. In **2024**, the stadium welcomed a historic MLB World Tour game between the Boston Red Sox and the Tampa Bay Rays, and further international events are planned in the coming years."
+      },
+      {
+        "heading": "The Sound of Dominican Baseball",
+        "text": "A game at Quisqueya is as much a musical experience as a sporting one: merengue and bachata over the public-address system, trumpets, drums and whistles in the stands, fans chanting for Licey or Escogido, and vendors walking the aisles with empanadas, yaniqueques and cold Presidente beer. For many Dominicans, this is where the heartbeat of the country can be felt every winter."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Estadio Quisqueya Juan Marichal. All rights reserved.",
@@ -351,7 +602,7 @@
     "text": "Estadio Quisqueya Juan Marichal is a famous baseball stadium in Santo Domingo, featuring rich baseball history and excellent sports facilities. It is an important sports and cultural landmark loved by local residents and tourists."
   },
   "historyTimeline": {
-    "title": "Historical Timeline",
+    "title": "History & Significance of Estadio Quisqueya Juan Marichal",
     "items": [
       {
         "year": "1955",
