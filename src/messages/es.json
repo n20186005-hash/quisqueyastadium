@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Estadio Quisqueya Juan Marichal - Boletas, Capacidad y Juegos",
-    "description": "Guía oficial del Estadio Quisqueya en Santo Domingo. Consulta la capacidad, la venta de boletas, los juegos de Licey y Escogido y los próximos conciertos."
+    "title": "Estadio Quisqueya Juan Marichal: Entradas y Juegos",
+    "description": "Información para visitar el Estadio Quisqueya Juan Marichal en Santo Domingo: calendario LIDOM, entradas, ubicación, capacidad y equipos locales."
   },
   "header": {
     "home": "Inicio",
@@ -15,7 +15,7 @@
     "title": "Estadio Quisqueya Juan Marichal (Santo Domingo)",
     "subtitle": "¡Siente la pasión de béisbol más pura del Caribe! El glorioso hogar de los Tigres del Licey y Leones del Escogido.",
     "rating": "4.5",
-    "reviewCount": "10,033",
+    "reviewCount": "10,035",
     "hours": "Estadio",
     "openMaps": "Ver Ubicación"
   },
@@ -600,6 +600,196 @@
   "officialManagement": {
     "title": "Acerca del Estadio Quisqueya Juan Marichal",
     "text": "El Estadio Quisqueya Juan Marichal es un famoso estadio de béisbol en Santo Domingo, que cuenta con una rica historia del béisbol y excelentes instalaciones deportivas. Es un hito deportivo y cultural importante amado por los residentes locales y turistas."
+  },
+  "quickAccess": {
+    "title": "Planifica tu visita",
+    "subtitle": "Juegos, entradas, capacidad y cómo llegar al Estadio Quisqueya",
+    "entradas": {
+      "label": "Entradas",
+      "desc": "Canales oficiales de Licey y Escogido"
+    },
+    "calendario": {
+      "label": "Calendario",
+      "desc": "Juegos de la temporada LIDOM 2026–2027"
+    },
+    "capacidad": {
+      "label": "Capacidad",
+      "desc": "Aforo y zonas del estadio"
+    },
+    "llegar": {
+      "label": "Cómo llegar",
+      "desc": "Ubicación, mapa y transporte"
+    }
+  },
+  "topics": {
+    "entradas": {
+      "title": "Entradas Estadio Quisqueya: Licey y Escogido",
+      "h1": "Entradas para el Estadio Quisqueya",
+      "intro": "La venta de entradas depende del equipo anfitrión y del partido. Antes de comprar, revisa si el juego pertenece a los Tigres del Licey o a los Leones del Escogido y utiliza únicamente los canales anunciados por el club organizador.",
+      "disclaimer": "Sitio informativo independiente. No somos el estadio, la liga ni una boletería oficial. Los precios y la disponibilidad pueden cambiar; confirma siempre los detalles en las fuentes oficiales antes de comprar.",
+      "sections": [
+        {
+          "heading": "Canales oficiales de venta",
+          "body": "Los boletos de la temporada regular y de playoffs de la LIDOM se venden a través de los canales oficiales de cada club y de la liga. Para los juegos de los Tigres del Licey consulta el sistema de venta autorizado del club; para los de los Leones del Escogido, el de su club. La Liga Dominicana (LIDOM) publica el calendario y los enlaces oficiales de cada juego."
+        },
+        {
+          "heading": "Consejos de compra",
+          "body": "Los precios y la disponibilidad varían según el partido, la sección y el rival; los clásicos y los juegos de playoffs suelen agotarse más rápido. Compra con antelación y usa solo canales oficiales para evitar problemas con la reventa. Lleva tu identificación y confirma el horario de apertura de taquillas antes de salir."
+        },
+        {
+          "heading": "Boletería del estadio",
+          "body": "El estadio cuenta con boletería en la Av. Tiradentes 3456, Santo Domingo. El horario y la disponibilidad dependen del calendario de juegos y eventos; confirma con la liga o los clubes antes de ir. Fuera de la temporada de la LIDOM (octubre a enero) la venta presencial puede no estar disponible."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Dónde comprar entradas para el Estadio Quisqueya?",
+          "a": "Utiliza únicamente los canales oficiales del club anfitrión (Tigres del Licey o Leones del Escogido) y de la LIDOM. Los enlaces oficiales se publican en el sitio de la liga y de cada equipo antes de cada juego."
+        },
+        {
+          "q": "¿Los precios son los mismos para todos los partidos?",
+          "a": "No. El precio depende del partido, la sección y el rival. Los partidos de playoffs y los clásicos suelen tener mayor demanda y pueden agotarse antes; consulta el precio exacto en el canal oficial antes de comprar."
+        },
+        {
+          "q": "¿Puedo comprar entradas en la boletería del estadio?",
+          "a": "Sí, el estadio tiene boletería en la Av. Tiradentes 3456, pero el horario y la disponibilidad dependen del calendario de juegos y eventos. Confirma con la liga o los clubes antes de acudir."
+        },
+        {
+          "q": "¿Cómo sé qué equipo juega como local?",
+          "a": "El Estadio Quisqueya es la casa compartida de los Tigres del Licey y los Leones del Escogido. El equipo anfitrión de cada juego se indica en el calendario oficial de la LIDOM; revísalo antes de comprar."
+        }
+      ]
+    },
+    "calendario-2026-2027": {
+      "title": "Calendario Estadio Quisqueya 2026–2027",
+      "h1": "Calendario de juegos en el Estadio Quisqueya 2026–2027",
+      "intro": "La temporada LIDOM 2026–2027 comienza el 16 de octubre de 2026. El calendario oficial incluye un juego entre Tigres del Licey y Leones del Escogido en el Estadio Quisqueya Juan Marichal el 16 de octubre a las 7:15 p. m., hora local. Consulta los horarios oficiales antes de viajar, ya que la programación puede cambiar.",
+      "disclaimer": "Sitio informativo independiente. No somos la liga ni un canal oficial de venta. Los horarios y enfrentamientos pueden ajustarse; confirma siempre la información en las fuentes oficiales antes de planificar tu visita.",
+      "sections": [
+        {
+          "heading": "Juego inaugural de la temporada (ejemplo)",
+          "body": "Como referencia, el calendario LIDOM 2026–2027 abre el 16 de octubre de 2026 con un partido entre Tigres del Licey y Leones del Escogido en el Estadio Quisqueya Juan Marichal, a las 7:15 p. m. hora local. Este es solo un ejemplo del tipo de juego que se juega en el recinto; el calendario completo y definitivo lo publica la LIDOM."
+        },
+        {
+          "heading": "Cómo consultar el calendario oficial",
+          "body": "La LIDOM y MLB publican el calendario oficial de juegos de la temporada. Antes de viajar, verifica la fecha, la hora y el recinto exactos en las fuentes oficiales, ya que la programación puede cambiar. Ten en cuenta que los equipos Licey y Escogido comparten casa en Quisqueya, pero el estadio y el equipo anfitrión deben confirmarse partido por partido."
+        },
+        {
+          "heading": "Qué equipos juegan como local",
+          "body": "El Estadio Quisqueya Juan Marichal es la sede habitual de los Tigres del Licey y los Leones del Escogido durante la temporada de la LIDOM (octubre a enero). Otros eventos especiales se anuncian por canales oficiales. Revisa siempre el enfrentamiento y la sede específicos antes de comprar boletos."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuándo empieza la temporada LIDOM 2026–2027?",
+          "a": "La temporada LIDOM 2026–2027 comienza el 16 de octubre de 2026. La fecha y los horarios exactos se confirman en el calendario oficial publicado por la liga."
+        },
+        {
+          "q": "¿Dónde consulto el calendario oficial de juegos?",
+          "a": "El calendario oficial lo publican la LIDOM y MLB. Revisa las fuentes oficiales antes de viajar, porque los horarios y los enfrentamientos pueden ajustarse."
+        },
+        {
+          "q": "¿El Estadio Quisqueya es sede de todos los partidos?",
+          "a": "No. El estadio es la casa de Licey y Escogido, pero la liga también utiliza otros recintos. Confirma el estadio de cada partido en el calendario oficial antes de comprar boletos."
+        },
+        {
+          "q": "¿A qué hora juegan normalmente los partidos?",
+          "a": "Los juegos nocturnos suelen comenzar entre las 7:00 y las 7:30 p. m. hora local, pero el horario exacto varía según el partido y se confirma en el calendario oficial."
+        }
+      ]
+    },
+    "capacidad": {
+      "title": "Capacidad del Estadio Quisqueya Juan Marichal",
+      "h1": "¿Cuál es la capacidad del Estadio Quisqueya?",
+      "intro": "La capacidad del Estadio Quisqueya Juan Marichal depende de la configuración de sus gradas y de las condiciones de cada evento. Como referencia informativa, el recinto indica aproximadamente 14.465 espectadores; esta cifra debe contrastarse con una fuente oficial actualizada antes de publicarla como dato definitivo.",
+      "disclaimer": "Sitio informativo independiente. No somos el estadio ni una fuente oficial. El aforo puede variar según la configuración del evento; confirma siempre la capacidad y la distribución actuales en los canales oficiales.",
+      "sections": [
+        {
+          "heading": "Capacidad de referencia y fuente",
+          "body": "Como referencia informativa, el Estadio Quisqueya Juan Marichal indica una capacidad aproximada de 14.465 espectadores. Esta cifra es una guía, no un dato oficial definitivo; contrástala con una fuente oficial actualizada antes de usarla para planificar."
+        },
+        {
+          "heading": "Aforo deportivo vs. conciertos y eventos",
+          "body": "El aforo para béisbol difiere del de conciertos u otros eventos, donde el escenario y las zonas habilitadas cambian la distribución. No supongas que la capacidad deportiva se aplica a otros eventos."
+        },
+        {
+          "heading": "Sectores y visibilidad",
+          "body": "El estadio distribuye las gradas en distintos sectores y niveles. Para elegir zona, consulta el mapa oficial de asientos del evento, ya que la visibilidad y el precio varían por sector. Este sitio no muestra un mapa propio."
+        },
+        {
+          "heading": "Cómo elegir zona para un partido",
+          "body": "Las zonas premium (palcos) ofrecen mejor vista y comodidad; las gradas de los jardines suelen tener el ambiente más apasionado. Considera tu presupuesto, la cercanía al campo y la sombra según la hora del juego."
+        },
+        {
+          "heading": "Dónde consultar disponibilidad por evento",
+          "body": "La disponibilidad de asientos y las secciones habilitadas se confirman en los canales oficiales de venta del club anfitrión y de la LIDOM para cada juego."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuántos espectadores caben en el Estadio Quisqueya?",
+          "a": "Como referencia informativa, el recinto indica aproximadamente 14.465 espectadores. El aforo puede variar según la configuración del evento; confírmalo en una fuente oficial actualizada."
+        },
+        {
+          "q": "¿La capacidad es la misma para conciertos y béisbol?",
+          "a": "No necesariamente. El aforo deportivo difiere del de conciertos y otros eventos, donde cambian el escenario y las zonas habilitadas. Verifica la capacidad específica de cada evento en los canales oficiales."
+        },
+        {
+          "q": "¿Cómo elijo la mejor zona para un partido?",
+          "a": "Consulta el mapa oficial de asientos del evento. Las zonas premium ofrecen mejor vista; las gradas de los jardines tienen el ambiente más animado. Elige según presupuesto, cercanía al campo y sombra."
+        },
+        {
+          "q": "¿Dónde consulto la disponibilidad de asientos?",
+          "a": "La disponibilidad y las secciones se confirman en los canales oficiales de venta del club anfitrión y de la LIDOM para cada juego."
+        }
+      ]
+    },
+    "nuevo-estadio-quisqueya": {
+      "title": "Nuevo Estadio Quisqueya: Noticias del Proyecto",
+      "h1": "Nuevo Estadio Quisqueya: estado y novedades",
+      "intro": "Existen propuestas y debates públicos sobre el futuro de la infraestructura de béisbol en Santo Domingo. Esta página reúne novedades verificadas sobre posibles proyectos de un nuevo estadio y explica qué está aprobado, qué continúa en estudio y qué implica para los aficionados al actual Estadio Quisqueya.",
+      "disclaimer": "Sitio informativo independiente. No somos el estadio ni una fuente gubernamental. Las propuestas de infraestructura pueden cambiar; nunca presentamos proyectos en estudio como obras ya inauguradas. Verifica siempre con fuentes oficiales.",
+      "sections": [
+        {
+          "heading": "Última actualización y fuente primaria",
+          "body": "Las novedades sobre un posible nuevo estadio de béisbol en Santo Domingo deben verificarse en fuentes primarias: el Ayuntamiento del Distrito Nacional, el Ministerio de Deportes (MIDEREC) y la LIDOM. Antes de creer cualquier fecha o presupuesto, contrasta la información con estos canales oficiales."
+        },
+        {
+          "heading": "Cronología documentada",
+          "body": "El actual Estadio Quisqueya Juan Marichal, inaugurado en 1955, es una de las catedrales del béisbol dominicano. Las discusiones sobre modernizar o reemplazar la infraestructura son recurrentes en la vida pública dominicana; este sitio recopila únicamente hitos verificados y fechas confirmadas por fuentes oficiales."
+        },
+        {
+          "heading": "¿Hay proyecto aprobado y presupuesto confirmado?",
+          "body": "No presentamos como hecho lo que está en estudio. Las propuestas de un nuevo estadio deben confirmarse con actos oficiales, presupuesto aprobado y cronograma público. Hasta que exista una fuente oficial clara, considéralas como iniciativas en evaluación."
+        },
+        {
+          "heading": "¿Seguirán los juegos en el Quisqueya actual?",
+          "body": "Mientras no haya una fuente oficial que indique lo contrario, los Tigres del Licey y los Leones del Escogido siguen jugando en el Estadio Quisqueya Juan Marichal durante la temporada LIDOM. Cualquier cambio de sede se anunciaría por canales oficiales."
+        },
+        {
+          "heading": "Fuentes gubernamentales y deportivas",
+          "body": "Para seguir la información oficial, consulta el Ayuntamiento del Distrito Nacional (adn.gob.do), el Ministerio de Deportes (miderec.gob.do) y la LIDOM (lidom.com). Estas fuentes publican comunicados y planes relacionados con el béisbol y la infraestructura deportiva."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Se va a construir un nuevo estadio de béisbol en Santo Domingo?",
+          "a": "Existen propuestas y debates públicos, pero este sitio independiente no presenta proyectos en estudio como obras confirmadas. Verifica el estado actual con el Ayuntamiento del Distrito Nacional, MIDEREC y la LIDOM."
+        },
+        {
+          "q": "¿Está aprobado el presupuesto del nuevo estadio?",
+          "a": "No afirmamos presupuestos sin una fuente oficial. Cualquier monto debe confirmarse con actos oficiales y documentos públicos antes de considerarlo definitivo."
+        },
+        {
+          "q": "¿Dónde siguen jugando Licey y Escogido?",
+          "a": "Mientras no haya un anuncio oficial en contrario, ambos equipos juegan en el Estadio Quisqueya Juan Marichal durante la temporada LIDOM. Los cambios de sede se comunicarían por canales oficiales."
+        },
+        {
+          "q": "¿Dónde consulto fuentes oficiales sobre el proyecto?",
+          "a": "Consulta el Ayuntamiento del Distrito Nacional (adn.gob.do), el Ministerio de Deportes (miderec.gob.do) y la LIDOM (lidom.com) para información verificada sobre el béisbol y la infraestructura en Santo Domingo."
+        }
+      ]
+    }
   },
   "historyTimeline": {
     "title": "Historia y Significado del Estadio Quisqueya Juan Marichal",

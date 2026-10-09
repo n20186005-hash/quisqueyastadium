@@ -13,6 +13,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy-policy',
     '/terms-of-service',
     '/cookie-settings',
+    '/entradas',
+    '/calendario-2026-2027',
+    '/capacidad',
+    '/nuevo-estadio-quisqueya',
   ];
 
   const sitemap: MetadataRoute.Sitemap = [];

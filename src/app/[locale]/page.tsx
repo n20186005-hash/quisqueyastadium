@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import QuickAccess from '@/components/QuickAccess';
 import Intro from '@/components/Intro';
 import BasicInfo from '@/components/BasicInfo';
 import HistoryTimeline from '@/components/HistoryTimeline';
@@ -115,6 +116,7 @@ export default async function HomePage({ params }: PageProps) {
       <Header />
       <main>
         <Hero />
+        <QuickAccess />
         <Intro />
         <BasicInfo />
         <StorySection />

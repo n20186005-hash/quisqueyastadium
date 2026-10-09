@@ -15,7 +15,7 @@
     "title": "Estadio Quisqueya Juan Marichal (Santo Domingo)",
     "subtitle": "Feel the purest baseball passion in the Caribbean! The glorious home of Tigres del Licey and Leones del Escogido.",
     "rating": "4.5",
-    "reviewCount": "10,033",
+    "reviewCount": "10,035",
     "hours": "Stadium",
     "openMaps": "View Location"
   },
@@ -600,6 +600,196 @@
   "officialManagement": {
     "title": "About Estadio Quisqueya Juan Marichal",
     "text": "Estadio Quisqueya Juan Marichal is a famous baseball stadium in Santo Domingo, featuring rich baseball history and excellent sports facilities. It is an important sports and cultural landmark loved by local residents and tourists."
+  },
+  "quickAccess": {
+    "title": "Plan your visit",
+    "subtitle": "Games, tickets, capacity and how to get to Quisqueya Stadium",
+    "entradas": {
+      "label": "Tickets",
+      "desc": "Official channels for Licey and Escogido"
+    },
+    "calendario": {
+      "label": "Schedule",
+      "desc": "LIDOM 2026–2027 season games"
+    },
+    "capacidad": {
+      "label": "Capacity",
+      "desc": "Stadium seating and capacity"
+    },
+    "llegar": {
+      "label": "Getting there",
+      "desc": "Location, map and transport"
+    }
+  },
+  "topics": {
+    "entradas": {
+      "title": "Estadio Quisqueya Tickets: Licey and Escogido",
+      "h1": "Tickets for Estadio Quisqueya",
+      "intro": "Ticket sales depend on the home team and the game. Before buying, check whether the game belongs to the Tigres del Licey or the Leones del Escogido and use only the channels announced by the organizing club.",
+      "disclaimer": "Independent information site. We are not the stadium, the league, or an official box office. Prices and availability may change; always confirm the details with official sources before buying.",
+      "sections": [
+        {
+          "heading": "Official sales channels",
+          "body": "Regular-season and playoff tickets for the LIDOM are sold through the official channels of each club and the league. For Tigres del Licey games, use the club's authorized sales system; for Leones del Escogido games, use theirs. The Dominican League (LIDOM) publishes the schedule and official links for each game."
+        },
+        {
+          "heading": "Buying tips",
+          "body": "Prices and availability vary by game, section and opponent; classics and playoff games usually sell out faster. Buy in advance and use only official channels to avoid resale problems. Bring identification and confirm box-office opening times before you go."
+        },
+        {
+          "heading": "Stadium box office",
+          "body": "The stadium has a box office at Av. Tiradentes 3456, Santo Domingo. Hours and availability depend on the game and event schedule; confirm with the league or clubs before going. Outside the LIDOM season (October to January) in-person sales may not be available."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where can I buy tickets for Estadio Quisqueya?",
+          "a": "Use only the official channels of the home club (Tigres del Licey or Leones del Escogido) and of LIDOM. Official links are published on the league and each team's site before every game."
+        },
+        {
+          "q": "Are prices the same for every game?",
+          "a": "No. The price depends on the game, section and opponent. Playoff games and classics tend to be in higher demand and may sell out earlier; check the exact price on the official channel before buying."
+        },
+        {
+          "q": "Can I buy tickets at the stadium box office?",
+          "a": "Yes, the stadium has a box office at Av. Tiradentes 3456, but hours and availability depend on the game and event schedule. Confirm with the league or clubs before going."
+        },
+        {
+          "q": "How do I know which team is the home team?",
+          "a": "Estadio Quisqueya is the shared home of the Tigres del Licey and the Leones del Escogido. The home team for each game is shown in the official LIDOM schedule; check it before buying."
+        }
+      ]
+    },
+    "calendario-2026-2027": {
+      "title": "Estadio Quisqueya Schedule 2026–2027",
+      "h1": "Estadio Quisqueya game schedule 2026–2027",
+      "intro": "The LIDOM 2026–2027 season begins on October 16, 2026. The official schedule includes a game between Tigres del Licey and Leones del Escogido at Estadio Quisqueya Juan Marichal on October 16 at 7:15 p.m. local time. Check the official times before traveling, as the schedule may change.",
+      "disclaimer": "Independent information site. We are not the league or an official sales channel. Times and matchups may be adjusted; always confirm the information with official sources before planning your visit.",
+      "sections": [
+        {
+          "heading": "Season opener (example)",
+          "body": "As a reference, the LIDOM 2026–2027 calendar opens on October 16, 2026 with a game between Tigres del Licey and Leones del Escogido at Estadio Quisqueya Juan Marichal at 7:15 p.m. local time. This is only an example of the kind of game played at the venue; the complete and definitive schedule is published by LIDOM."
+        },
+        {
+          "heading": "How to check the official schedule",
+          "body": "LIDOM and MLB publish the official game schedule for the season. Before traveling, verify the exact date, time and venue with official sources, as the schedule may change. Note that Licey and Escogido share a home at Quisqueya, but the stadium and home team must be confirmed game by game."
+        },
+        {
+          "heading": "Which teams play at home",
+          "body": "Estadio Quisqueya Juan Marichal is the usual home of the Tigres del Licey and the Leones del Escogido during the LIDOM season (October to January). Other special events are announced through official channels. Always check the specific matchup and venue before buying tickets."
+        }
+      ],
+      "faq": [
+        {
+          "q": "When does the LIDOM 2026–2027 season start?",
+          "a": "The LIDOM 2026–2027 season begins on October 16, 2026. The exact dates and times are confirmed in the official schedule published by the league."
+        },
+        {
+          "q": "Where do I check the official game schedule?",
+          "a": "The official schedule is published by LIDOM and MLB. Check official sources before traveling, because times and matchups may be adjusted."
+        },
+        {
+          "q": "Is Estadio Quisqueya the venue for every game?",
+          "a": "No. The stadium is the home of Licey and Escogido, but the league also uses other venues. Confirm each game's stadium in the official schedule before buying tickets."
+        },
+        {
+          "q": "What time do games usually start?",
+          "a": "Night games usually start between 7:00 and 7:30 p.m. local time, but the exact time varies by game and is confirmed in the official schedule."
+        }
+      ]
+    },
+    "capacidad": {
+      "title": "Capacity of Estadio Quisqueya Juan Marichal",
+      "h1": "What is the capacity of Estadio Quisqueya?",
+      "intro": "The capacity of Estadio Quisqueya Juan Marichal depends on its seating configuration and the conditions of each event. As an informational reference, the venue indicates approximately 14,465 spectators; this figure should be checked against an updated official source before being published as a definitive number.",
+      "disclaimer": "Independent information site. We are not the stadium or an official source. Capacity may vary with the event setup; always confirm the current capacity and layout through official channels.",
+      "sections": [
+        {
+          "heading": "Reference capacity and source",
+          "body": "As an informational reference, Estadio Quisqueya Juan Marichal indicates an approximate capacity of 14,465 spectators. This figure is a guide, not a definitive official number; cross-check it with an updated official source before using it to plan."
+        },
+        {
+          "heading": "Sports capacity vs. concerts and events",
+          "body": "Baseball capacity differs from that of concerts or other events, where the stage and the areas enabled change the layout. Do not assume the sports capacity applies to other events."
+        },
+        {
+          "heading": "Sections and visibility",
+          "body": "The stadium divides its stands into different sections and levels. To choose a zone, consult the event's official seating map, as visibility and price vary by section. This site does not show its own map."
+        },
+        {
+          "heading": "How to choose a zone for a game",
+          "body": "Premium zones (boxes) offer better views and comfort; the outfield bleachers usually have the most passionate atmosphere. Consider your budget, proximity to the field and shade depending on the game time."
+        },
+        {
+          "heading": "Where to check availability per event",
+          "body": "Seat availability and enabled sections are confirmed on the official sales channels of the home club and LIDOM for each game."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many spectators fit in Estadio Quisqueya?",
+          "a": "As an informational reference, the venue indicates approximately 14,465 spectators. Capacity may vary with the event setup; confirm it with an updated official source."
+        },
+        {
+          "q": "Is the capacity the same for concerts and baseball?",
+          "a": "Not necessarily. Sports capacity differs from that of concerts and other events, where the stage and enabled areas change. Verify the specific capacity of each event through official channels."
+        },
+        {
+          "q": "How do I choose the best zone for a game?",
+          "a": "Consult the event's official seating map. Premium zones offer better views; the outfield bleachers have the liveliest atmosphere. Choose based on budget, proximity to the field and shade."
+        },
+        {
+          "q": "Where do I check seat availability?",
+          "a": "Availability and sections are confirmed on the official sales channels of the home club and LIDOM for each game."
+        }
+      ]
+    },
+    "nuevo-estadio-quisqueya": {
+      "title": "New Estadio Quisqueya: Project News",
+      "h1": "New Estadio Quisqueya: status and updates",
+      "intro": "There are public proposals and debates about the future of baseball infrastructure in Santo Domingo. This page gathers verified updates on possible projects for a new stadium and explains what is approved, what remains under study, and what it means for fans of the current Estadio Quisqueya.",
+      "disclaimer": "Independent information site. We are not the stadium or a government source. Infrastructure proposals can change; we never present projects under study as already completed works. Always verify with official sources.",
+      "sections": [
+        {
+          "heading": "Latest update and primary source",
+          "body": "News about a possible new baseball stadium in Santo Domingo should be verified with primary sources: the Santo Domingo National District City Hall, the Ministry of Sports (MIDEREC) and LIDOM. Before believing any date or budget, cross-check the information with these official channels."
+        },
+        {
+          "heading": "Documented timeline",
+          "body": "The current Estadio Quisqueya Juan Marichal, opened in 1955, is one of the cathedrals of Dominican baseball. Discussions about modernizing or replacing the infrastructure are recurrent in Dominican public life; this site gathers only verified milestones and dates confirmed by official sources."
+        },
+        {
+          "heading": "Is there an approved project and confirmed budget?",
+          "body": "We do not present as fact what is under study. Proposals for a new stadium must be confirmed with official acts, an approved budget and a public timeline. Until there is a clear official source, treat them as initiatives under evaluation."
+        },
+        {
+          "heading": "Will games continue at the current Quisqueya?",
+          "body": "Unless an official source indicates otherwise, the Tigres del Licey and the Leones del Escogido continue to play at Estadio Quisqueya Juan Marichal during the LIDOM season. Any change of venue would be announced through official channels."
+        },
+        {
+          "heading": "Government and sports sources",
+          "body": "To follow official information, consult the Santo Domingo National District City Hall (adn.gob.do), the Ministry of Sports (miderec.gob.do) and LIDOM (lidom.com). These sources publish statements and plans related to baseball and sports infrastructure."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will a new baseball stadium be built in Santo Domingo?",
+          "a": "There are public proposals and debates, but this independent site does not present projects under study as confirmed works. Verify the current status with the National District City Hall, MIDEREC and LIDOM."
+        },
+        {
+          "q": "Is the new stadium budget approved?",
+          "a": "We do not assert budgets without an official source. Any amount must be confirmed with official acts and public documents before being considered definitive."
+        },
+        {
+          "q": "Where do Licey and Escogido continue to play?",
+          "a": "Unless there is an official announcement to the contrary, both teams play at Estadio Quisqueya Juan Marichal during the LIDOM season. Venue changes would be communicated through official channels."
+        },
+        {
+          "q": "Where do I consult official sources about the project?",
+          "a": "Consult the National District City Hall (adn.gob.do), the Ministry of Sports (miderec.gob.do) and LIDOM (lidom.com) for verified information about baseball and infrastructure in Santo Domingo."
+        }
+      ]
+    }
   },
   "historyTimeline": {
     "title": "History & Significance of Estadio Quisqueya Juan Marichal",

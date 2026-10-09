@@ -46,7 +46,7 @@ export const ATTRACTION = {
   phoneDisplay: '+1 809-616-1224',
   // Google 商户评分（最新）
   rating: '4.5',
-  reviewCount: '10,033',
+  reviewCount: '10,035',
   // 场馆容量
   capacity: '14,465',
   // 主场球队

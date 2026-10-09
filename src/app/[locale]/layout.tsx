@@ -113,8 +113,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
   const messages = await getMessages();
 
+  const htmlLang = locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es-DO' : 'en-US';
+
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={htmlLang} suppressHydrationWarning>
       <body>
         {/* GA4 */}
         <Script
