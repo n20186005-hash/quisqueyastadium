@@ -622,6 +622,42 @@
     }
   },
   "topics": {
+    "mapa-asientos": {
+      "title":"基斯克亚球场座位图指南：包厢与看台",
+      "h1":"基斯克亚球场座位分区与选座指南",
+      "intro":"介绍 Estadio Quisqueya Juan Marichal 的 A、AA、AAA 包厢、主看台、优选区与普通看台，帮助观众在购票前比较分区。实际开放区域取决于比赛和主办球队。",
+      "disclaimer":"具体座位编号、出入口和余票请以该场比赛授权售票平台的座位图为准；本页不提供自制编号座位图。",
+      "sections":[
+        {"heading":"A、AA、AAA 包厢", "body":"不同包厢等级对应不同位置与票价。具体区块、排数与座位编号应查看授权售票页面。单凭等级名称不能保证遮阳、无障碍通行或特定视角。"},
+        {"heading":"Grandstand、优选区与普通看台", "body":"主看台、优选区和普通看台可能分开售票。选座时可比较观看球场的角度、距离、午后日照、楼梯与附近服务设施，以当场比赛的座位图为准。"},
+        {"heading":"如何找到准确座位图", "body":"先打开 LIDOM 官方赛程 https://www.lidom.com/estadisticas_v2-0/calendario/，核对主队、日期和场地，再进入该场比赛公布的售票渠道。各区块、排数和余票以售票页面为准。"},
+        {"heading":"票价与供应情况", "body":"上一场或上一赛季的价格不能作为现在的统一价格。Licey、Escogido、特别赛事和季后赛可能采用不同票价。付款前确认多米尼加比索 RD$ 金额、手续费和入场条件。"},
+        {"heading":"进场、无障碍与拍照", "body":"比赛日提前到场，按票面入口寻找座位；如需无障碍路线，请询问现场工作人员。拍照时注意防护网，并保持通道畅通。"}
+      ],
+      "faq":[
+        {"q":"在哪里查看带座位编号的地图？", "a":"请在该场比赛主办方授权的售票平台查看分区、排数和具体座位。"},
+        {"q":"AAA 包厢与普通看台有什么区别？", "a":"它们是不同的座位类别；确切位置、视野及票价取决于具体赛事。"},
+        {"q":"A 包厢和 Grandstand 票价是多少？", "a":"以当场比赛主队公布的授权售票渠道为准，不存在适用于所有赛事的统一票价。"}
+      ]
+    },
+    "licey-escogido": {
+      "title":"Licey 与 Escogido：基斯克亚球场主场球队",
+      "h1":"Tigres del Licey 与 Leones del Escogido 主场指南",
+      "intro":"圣多明各两支历史悠久的棒球队共用 Estadio Quisqueya Juan Marichal。本篇介绍如何辨别主队、查询当天比赛和购买两队德比战的门票。",
+      "disclaimer":"当天比赛时间、场地和主队应以 LIDOM 官方赛程的最新公告为准。",
+      "sections":[
+        {"heading":"两支球队共用一座球场", "body":"Tigres del Licey 和 Leones del Escogido 在多米尼加冬季棒球联赛期间都以基斯克亚球场作为常用主场。共用球场不代表售票渠道相同，也不意味着两队所有比赛都在此举行。"},
+        {"heading":"圣多明各德比", "body":"Licey 对 Escogido 是当地极具代表性的棒球对决，关注度通常较高。提前确认对手、比赛日期、开球时间及座位区域。"},
+        {"heading":"今天谁在基斯克亚球场比赛？", "body":"请查看 LIDOM 实时赛程 https://www.lidom.com/estadisticas_v2-0/calendario/，寻找 Estadio Quisqueya Juan Marichal 并核对标注的主队。本页不把静态赛程冒充实时数据。"},
+        {"heading":"按主办球队选择售票渠道", "body":"确认该场主队后，从该俱乐部公布的授权渠道购票。核对票面球场、日期及分区；即使双方相同，不同场次的价格也可能不同。"},
+        {"heading":"比赛日参观建议", "body":"Tiradentes 大道附近比赛前可能拥堵，建议预留交通时间并按票面入口入场。非比赛日不要假定球场内部对游客开放。"}
+      ],
+      "faq":[
+        {"q":"基斯克亚球场只属于 Licey 吗？", "a":"不是。Leones del Escogido 也将这里作为常用主场。"},
+        {"q":"如何查今天的比赛？", "a":"打开 https://www.lidom.com/estadisticas_v2-0/calendario/，查看最新日期与比赛场地。"},
+        {"q":"两队德比战门票在哪里买？", "a":"先确认当场主办球队，再前往其授权售票渠道。"}
+      ]
+    },
     "entradas": {
       "title": "Quisqueya 球场球票：Licey 与 Escogido",
       "h1": "Quisqueya 球场球票",
