@@ -622,6 +622,42 @@
     }
   },
   "topics": {
+    "mapa-asientos": {
+      "title": "Mapa de asientos Estadio Quisqueya: palcos y gradas",
+      "h1": "Asientos y sectores del Estadio Quisqueya",
+      "intro": "Guía para comparar palcos A, AA y AAA, grandstand, preferencias y gradas antes de elegir entradas en el Estadio Quisqueya Juan Marichal. La distribución disponible cambia según el organizador y el evento.",
+      "disclaimer": "Consulta el plano exacto y las condiciones de acceso en la boletería oficial del partido; este artículo no sustituye un mapa numerado de entradas.",
+      "sections": [
+        {"heading":"Palcos A, AA y AAA", "body":"Los palcos son sectores diferenciados de asientos y precio. La ubicación precisa de cada bloque y la numeración de filas aparecen en el plano del vendedor autorizado. No presupongas que la letra o la categoría garantiza sombra o acceso sin escalones."},
+        {"heading":"Grandstand, preferencias y gradas", "body":"Grandstand y preferencias pueden figurar como categorías separadas según el juego. Las gradas ofrecen una alternativa diferente a los palcos. Compara orientación al terreno, distancia, sol de tarde, escaleras y servicios antes de seleccionar un sector."},
+        {"heading":"Cómo encontrar el mapa correcto", "body":"Abre primero el calendario de LIDOM (https://www.lidom.com/estadisticas_v2-0/calendario/) y verifica equipo local, fecha y sede. Sigue después el canal de venta indicado para ese partido. El plano del evento es la referencia para bloques, filas, accesos y asientos disponibles."},
+        {"heading":"Precios y disponibilidad", "body":"Un precio de otro partido o temporada no sirve como tarifa actual. El costo puede variar entre Licey, Escogido, juegos especiales y playoffs. Revisa la moneda RD$, cargos adicionales y restricciones de acceso antes de pagar."},
+        {"heading":"Llegada, accesibilidad y fotografías", "body":"En días de juego llega con tiempo para localizar tu puerta, verificar el ticket y consultar al personal sobre rutas accesibles. Para fotos, considera las redes de protección y evita bloquear los pasillos durante el partido."}
+      ],
+      "faq": [
+        {"q":"¿Hay un mapa numerado de asientos?", "a":"El mapa específico aparece en la plataforma de venta autorizada del evento. Confirma bloque, fila y asiento antes de pagar."},
+        {"q":"¿Qué diferencia hay entre palcos AAA y gradas?", "a":"Son categorías distintas de localidades; ubicación y precio dependen del evento. Compara el plano oficial, no solo el nombre."},
+        {"q":"¿Dónde veo precios de palcos A y grandstand?", "a":"En el canal de venta del club que organiza ese juego; las tarifas no son universales para todo el estadio."}
+      ]
+    },
+    "licey-escogido": {
+      "title": "Licey y Escogido: equipos del Estadio Quisqueya",
+      "h1": "Tigres del Licey y Leones del Escogido en el Quisqueya",
+      "intro": "Dos clubes históricos comparten el Estadio Quisqueya Juan Marichal en Santo Domingo. Aprende cómo identificar al anfitrión, buscar sus juegos y escoger entradas para el clásico capitalino.",
+      "disclaimer": "Las fechas, los horarios y el equipo local se consultan en el calendario oficial de LIDOM antes de cada visita.",
+      "sections": [
+        {"heading":"Dos clubes, un estadio", "body":"Tigres del Licey y Leones del Escogido utilizan el Quisqueya para sus partidos de casa de la liga invernal. Compartir recinto no significa que vendan entradas por el mismo canal ni que todos sus encuentros sean aquí."},
+        {"heading":"El clásico entre Licey y Escogido", "body":"El encuentro entre los dos equipos de Santo Domingo es uno de los partidos emblemáticos del béisbol dominicano. La demanda puede aumentar; revisa rival, fecha, horario y localidad antes de reservar."},
+        {"heading":"¿Quién juega hoy en el Estadio Quisqueya?", "body":"Para saber si hay partido hoy, consulta el calendario vivo de LIDOM en https://www.lidom.com/estadisticas_v2-0/calendario/. Filtra o busca Estadio Quisqueya Juan Marichal y confirma el equipo que aparece como local. No se publica aquí un calendario estático como si fuera información en directo."},
+        {"heading":"Cómo comprar sin confundir al anfitrión", "body":"Una vez identificado el local, sigue los enlaces de boletería anunciados por Licey o Escogido. Verifica que el ticket indique el estadio y la fecha correctos; los precios y zonas pueden ser distintos incluso en partidos de los mismos rivales."},
+        {"heading":"Plan de visita", "body":"Reserva margen para el tráfico en avenida Tiradentes, llega antes de la primera entrada y revisa la puerta indicada en tu boleto. Si no hay partido, no supongas que habrá acceso turístico al interior del estadio."}
+      ],
+      "faq": [
+        {"q":"¿El Estadio Quisqueya pertenece al Licey?", "a":"No es una sede exclusiva del Licey: también es la casa habitual de los Leones del Escogido."},
+        {"q":"¿Quién juega hoy en el Quisqueya?", "a":"Revisa https://www.lidom.com/estadisticas_v2-0/calendario/ y confirma la sede de la jornada; los cambios pueden anunciarse a última hora."},
+        {"q":"¿Dónde consigo boletas para el clásico?", "a":"Comprueba qué equipo organiza el juego y utiliza su canal de venta autorizado; revisa precio y localidad antes del pago."}
+      ]
+    },
     "entradas": {
       "title": "Entradas Estadio Quisqueya: Licey y Escogido",
       "h1": "Entradas para el Estadio Quisqueya",
