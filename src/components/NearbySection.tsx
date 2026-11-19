@@ -46,7 +46,7 @@ export default function NearbySection() {
                 {item.note}
               </p>
               <a
-                href={`https://www.google.com/maps/search/${encodeURIComponent(
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
                   `${item.name}, ${ATTRACTION.city}, ${ATTRACTION.country}`
                 )}`}
                 target="_blank"
