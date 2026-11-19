@@ -78,14 +78,14 @@ export function canonicalUrl(locale: string) {
 
 /** 场馆结构化数据：StadiumOrArena 比单一 TouristAttraction 更贴近“球场”，
  * 同时保留 TouristAttraction 面向旅游导览；电话、容量等字段取自唯一的 NAP 数据源。 */
-export function touristAttractionJsonLd(locale: string) {
+export function touristAttractionJsonLd(locale: string, localizedDescription?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': ['TouristAttraction', 'SportsActivityLocation'],
     '@id': attractionId(locale),
     name: ATTRACTION.fullName,
     alternateName: [ATTRACTION.shortName, `${ATTRACTION.city} ${ATTRACTION.fullName}`],
-    description: `Comprehensive visitor guide to ${ATTRACTION.fullName} in ${ATTRACTION.city}, ${ATTRACTION.stateProvince}, ${ATTRACTION.country}.`,
+    description: localizedDescription ?? `Visitor guide: ${ATTRACTION.fullName}, ${ATTRACTION.city}.`,
     url: canonicalUrl(locale),
     image: [
       ATTRACTION.heroImageUrl,
