@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calendario-2026-2027',
     '/capacidad',
     '/nuevo-estadio-quisqueya',
+    '/mapa-asientos',
+    '/licey-escogido',
   ];
 
   const sitemap: MetadataRoute.Sitemap = [];
