@@ -1,23 +1,26 @@
 import { useTranslations, useMessages } from 'next-intl';
-import { GEO_HIERARCHY } from '@/lib/attraction';
+import { ATTRACTION } from '@/lib/attraction';
 
 export default function Intro() {
   const t = useTranslations('intro');
   const tOff = useTranslations('officialManagement');
+  const ta = useTranslations('accessibility');
+  const tb = useTranslations('basicInfo');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const geoHierarchy = [ATTRACTION.fullName, tb('cityValue'), ta('geoRegion'), ta('geoCountry')];
 
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
         {/* 地理归属层级：Estadio Quisqueya Juan Marichal → Santo Domingo → Distrito Nacional → Dominican Republic */}
         <nav
-          aria-label="Breadcrumb"
+          aria-label={ta('breadcrumb')}
           className="text-xs sm:text-sm mb-6 overflow-x-auto whitespace-nowrap"
           style={{ color: 'var(--text-muted)' }}
         >
-          {GEO_HIERARCHY.map((part, i) => (
+          {geoHierarchy.map((part, i) => (
             <span key={part}>
               {i > 0 && <span className="mx-1.5" style={{ color: 'var(--border-color)' }}>›</span>}
               <span className={i === 0 ? 'font-medium' : ''} style={i === 0 ? { color: 'var(--text-primary)' } : undefined}>
