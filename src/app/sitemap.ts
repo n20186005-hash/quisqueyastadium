@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/nuevo-estadio-quisqueya',
     '/mapa-asientos',
     '/licey-escogido',
+    '/nearby/jardin-botanico-nacional',
+    '/nearby/museo-del-hombre-dominicano',
   ];
 
   const sitemap: MetadataRoute.Sitemap = [];
