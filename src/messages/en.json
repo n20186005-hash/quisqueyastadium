@@ -1,4 +1,19 @@
 {
+  "accessibility": {
+    "breadcrumb": "Breadcrumb navigation",
+    "languageToggle": "Change language",
+    "themeToggle": "Toggle light and dark theme",
+    "heroAlt": "Main view of Estadio Quisqueya Juan Marichal in Santo Domingo, Dominican Republic",
+    "galleryAlt": "{caption} — Estadio Quisqueya Juan Marichal, Santo Domingo",
+    "galleryFallback": "Photograph {number} of Estadio Quisqueya Juan Marichal, Santo Domingo",
+    "galleryClose": "Close photo viewer",
+    "galleryPrevious": "Previous photograph",
+    "galleryNext": "Next photograph",
+    "mapFrame": "Google Maps location for Estadio Quisqueya Juan Marichal, Santo Domingo",
+    "geoCountry": "Dominican Republic",
+    "geoRegion": "National District",
+    "mapOfficialSuffix": "."
+  },
   "meta": {
     "title": "Estadio Quisqueya Santo Domingo | Tickets, Games & Seats",
     "description": "Plan a baseball game at Estadio Quisqueya Juan Marichal: LIDOM 2026–27 schedule, Licey and Escogido tickets, seating sections, directions and stadium map."
