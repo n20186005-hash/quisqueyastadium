@@ -622,6 +622,42 @@
     }
   },
   "topics": {
+    "mapa-asientos": {
+      "title":"Estadio Quisqueya seating guide: boxes and bleachers",
+      "h1":"Estadio Quisqueya seating sections and map",
+      "intro":"Compare A, AA and AAA boxes, grandstand, preferential seating and bleachers before buying a ticket at Estadio Quisqueya Juan Marichal. The available layout varies by event and organizer.",
+      "disclaimer":"Use the authorized ticket seller's event-specific seating plan for exact rows, entrances and availability; this guide is not a numbered seat map.",
+      "sections":[
+        {"heading":"A, AA and AAA boxes", "body":"Box categories are distinguished by section and price. The authorized ticketing plan identifies the exact block and row. A category name alone does not guarantee shade, step-free access or a particular view."},
+        {"heading":"Grandstand, preferential areas and bleachers", "body":"Grandstand, preferential areas and bleachers may be offered as separate categories. Compare field angle, distance, afternoon sun, stairs and amenities on the actual game plan before making a choice."},
+        {"heading":"Where to find the correct seating map", "body":"First check the LIDOM fixture list at https://www.lidom.com/estadisticas_v2-0/calendario/ for the home team, venue and date. Follow the ticket channel announced for that game. Its interactive plan is the authority for available blocks, rows and seats."},
+        {"heading":"Ticket prices", "body":"A price published for one match or season is not a current stadium-wide tariff. Licey, Escogido, special events and playoffs may charge differently. Check RD$ prices, fees and entry conditions before payment."},
+        {"heading":"Arrival and photographs", "body":"Arrive early to locate the gate printed on your ticket and ask venue staff about accessible routes. For photographs, account for protective netting and keep aisles clear."}
+      ],
+      "faq":[
+        {"q":"Where can I see numbered seats?", "a":"Check the event-specific plan on the organizer's authorized ticket platform before purchasing."},
+        {"q":"Are AAA boxes and bleachers the same?", "a":"No. They are separate seating categories; precise position and price depend on the event."},
+        {"q":"How much are grandstand or A-box tickets?", "a":"Consult the home club's authorized ticket channel for that specific game; prices vary."}
+      ]
+    },
+    "licey-escogido": {
+      "title":"Licey and Escogido at Estadio Quisqueya",
+      "h1":"Tigres del Licey and Leones del Escogido: shared home",
+      "intro":"Two historic Dominican baseball clubs use Estadio Quisqueya Juan Marichal in Santo Domingo. Learn how to identify the home team, check games and buy tickets for the city rivalry.",
+      "disclaimer":"Always verify current game times, venue and home team on the official LIDOM schedule.",
+      "sections":[
+        {"heading":"Two clubs, one venue", "body":"Tigres del Licey and Leones del Escogido play home fixtures at Quisqueya during the Dominican winter league season. Sharing a venue does not imply identical ticket sellers, and not every game involving them takes place here."},
+        {"heading":"The Santo Domingo rivalry", "body":"Licey versus Escogido is a celebrated local rivalry. Demand can be high, so verify opponent, date, start time and section before making arrangements."},
+        {"heading":"Who is playing at Quisqueya today?", "body":"Use the live LIDOM fixture list at https://www.lidom.com/estadisticas_v2-0/calendario/. Look for Estadio Quisqueya Juan Marichal and identify the listed home club. This page does not pretend a static schedule is live data."},
+        {"heading":"Buy tickets for the correct organizer", "body":"Once the home club is confirmed, use its announced authorized sales link. Check that the ticket names the right stadium and date; prices and available sections can differ between games."},
+        {"heading":"Visiting on game day", "body":"Allow extra travel time near Avenida Tiradentes, arrive before the first pitch and use the gate on your ticket. Do not assume the stadium interior is open for sightseeing on non-game days."}
+      ],
+      "faq":[
+        {"q":"Is Quisqueya exclusively Licey's stadium?", "a":"No. It is also the regular home venue of Leones del Escogido."},
+        {"q":"Who plays at the stadium today?", "a":"Check https://www.lidom.com/estadisticas_v2-0/calendario/ for the venue and latest fixture updates."},
+        {"q":"Where do I buy rivalry tickets?", "a":"Identify the home team first, then use that club's authorized ticketing channel."}
+      ]
+    },
     "entradas": {
       "title": "Estadio Quisqueya Tickets: Licey and Escogido",
       "h1": "Tickets for Estadio Quisqueya",
