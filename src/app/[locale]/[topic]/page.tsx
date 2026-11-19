@@ -10,7 +10,7 @@ import zhMessages from '@/messages/zh.json';
 import enMessages from '@/messages/en.json';
 import esMessages from '@/messages/es.json';
 
-export const TOPIC_SLUGS = [
+const TOPIC_SLUGS = [
   'entradas',
   'calendario-2026-2027',
   'capacidad',
