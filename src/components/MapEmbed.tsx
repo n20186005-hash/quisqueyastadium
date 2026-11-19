@@ -4,6 +4,7 @@ import { ATTRACTION } from '@/lib/attraction';
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
   const tb = useTranslations('basicInfo');
+  const ta = useTranslations('accessibility');
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -76,7 +77,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Google Maps - Estadio Quisqueya Juan Marichal, Santo Domingo"
+            title={ta('mapFrame')}
           />
         </div>
 
@@ -114,7 +115,7 @@ export default function MapEmbed() {
           >
             {t('officialLinkLabel')}
           </a>
-          .
+          {ta('mapOfficialSuffix')}
         </p>
       </div>
     </section>
