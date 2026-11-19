@@ -22,9 +22,9 @@ const FAQ_LABEL: Record<string, string> = {
   en: 'Frequently asked questions',
 };
 const INFO = {
-  es: { overview: 'Información esencial', rating: 'Valoración mostrada en este sitio', address: 'Dirección', access: 'Acceso y transporte', management: 'Administración del estadio', managementBody: 'El Patronato de Administración y Cuidado del Estadio Quisqueya gestiona el recinto conforme al régimen vigente. LIDOM y los clubes organizan sus respectivos partidos y venta de entradas.', hours: 'Horario', hoursBody: 'El acceso se organiza según el partido o evento. Confirma puertas y horario en tu entrada.', price: 'Entradas', priceBody: 'Precios según club, sector y partido; no existe tarifa única.', map: 'Abrir Google Maps', schedule: 'Calendario oficial de LIDOM', source: 'Fuente sobre la administración', photo: 'Imagen del estadio' },
-  en: { overview: 'Essential information', rating: 'Rating displayed on this site', address: 'Address', access: 'Getting there', management: 'Stadium management', managementBody: 'The Patronato de Administración y Cuidado del Estadio Quisqueya manages the venue under the current administration framework. LIDOM and the clubs organize their respective games and ticketing.', hours: 'Opening', hoursBody: 'Entry follows the event schedule. Check gate opening and start times on your ticket.', price: 'Tickets', priceBody: 'Prices vary by home club, section and game; there is no single stadium-wide rate.', map: 'Open Google Maps', schedule: 'Official LIDOM schedule', source: 'Management source', photo: 'Stadium photograph' },
-  zh: { overview: '基础资料', rating: '本站显示的评分', address: '地址', access: '交通与到达', management: '球场管理主体', managementBody: '基斯克亚球场现由 Patronato de Administración y Cuidado del Estadio Quisqueya 管理。LIDOM 与各主场球队分别组织赛事和售票。', hours: '开放时间', hoursBody: '按具体赛事安排入场，请依据门票核对开门与开赛时间。', price: '票价', priceBody: '因主队、分区及场次而异，没有统一固定票价。', map: '打开 Google 地图', schedule: 'LIDOM 官方赛程', source: '管理资料来源', photo: '球场实景' },
+  es: { breadcrumb: 'Ruta de navegación', country: 'República Dominicana', overview: 'Información esencial', rating: 'Valoración mostrada en este sitio', address: 'Dirección', access: 'Acceso y transporte', management: 'Administración del estadio', managementBody: 'El Patronato de Administración y Cuidado del Estadio Quisqueya gestiona el recinto conforme al régimen vigente. LIDOM y los clubes organizan sus respectivos partidos y venta de entradas.', hours: 'Horario', hoursBody: 'El acceso se organiza según el partido o evento. Confirma puertas y horario en tu entrada.', price: 'Entradas', priceBody: 'Precios según club, sector y partido; no existe tarifa única.', map: 'Abrir Google Maps', schedule: 'Calendario oficial de LIDOM', source: 'Fuente sobre la administración', photo: 'Imagen del estadio' },
+  en: { breadcrumb: 'Breadcrumb navigation', country: 'Dominican Republic', overview: 'Essential information', rating: 'Rating displayed on this site', address: 'Address', access: 'Getting there', management: 'Stadium management', managementBody: 'The Patronato de Administración y Cuidado del Estadio Quisqueya manages the venue under the current administration framework. LIDOM and the clubs organize their respective games and ticketing.', hours: 'Opening', hoursBody: 'Entry follows the event schedule. Check gate opening and start times on your ticket.', price: 'Tickets', priceBody: 'Prices vary by home club, section and game; there is no single stadium-wide rate.', map: 'Open Google Maps', schedule: 'Official LIDOM schedule', source: 'Management source', photo: 'Stadium photograph' },
+  zh: { breadcrumb: '面包屑导航', country: '多米尼加共和国', overview: '基础资料', rating: '本站显示的评分', address: '地址', access: '交通与到达', management: '球场管理主体', managementBody: '基斯克亚球场现由 Patronato de Administración y Cuidado del Estadio Quisqueya 管理。LIDOM 与各主场球队分别组织赛事和售票。', hours: '开放时间', hoursBody: '按具体赛事安排入场，请依据门票核对开门与开赛时间。', price: '票价', priceBody: '因主队、分区及场次而异，没有统一固定票价。', map: '打开 Google 地图', schedule: 'LIDOM 官方赛程', source: '管理资料来源', photo: '球场实景' },
 } as const;
 
 export default function TopicPage({
@@ -73,7 +73,7 @@ export default function TopicPage({
       <main className="min-h-screen pt-32 pb-16 px-4" style={{ background: 'var(--bg-primary)' }}>
         <div className="max-w-4xl mx-auto">
           <nav
-            aria-label="Breadcrumb"
+            aria-label={ui.breadcrumb}
             className="text-xs sm:text-sm mb-6"
             style={{ color: 'var(--text-muted)' }}
           >
@@ -99,7 +99,7 @@ export default function TopicPage({
           <section className="rounded-2xl p-5 sm:p-7 mb-9" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
             <h2 className="font-display text-2xl font-semibold mb-4">{ui.overview}</h2>
             <div className="grid sm:grid-cols-2 gap-4 text-sm" style={{ color: 'var(--text-secondary)' }}>
-              <div><strong>{ui.address}:</strong> {ATTRACTION.streetAddress}, Santo Domingo, República Dominicana</div>
+              <div><strong>{ui.address}:</strong> {ATTRACTION.streetAddress}, Santo Domingo, {ui.country}</div>
               <div><strong>{ui.rating}:</strong> {ATTRACTION.rating}/5 ({ATTRACTION.reviewCount}) · Google Maps</div>
               <div><strong>{ui.hours}:</strong> {ui.hoursBody}</div>
               <div><strong>{ui.price}:</strong> {ui.priceBody}</div>
