@@ -29,6 +29,7 @@ const ICONS: Record<string, ReactElement> = {
 
 export default function QuickAccess() {
   const t = useTranslations('quickAccess');
+  const topicT = useTranslations('topics');
   const locale = useLocale();
   const prefix = `/${locale}`;
 
@@ -73,6 +74,14 @@ export default function QuickAccess() {
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                 {t(`${card.key}.desc`)}
               </p>
+            </a>
+          ))}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+          {(['mapa-asientos', 'licey-escogido'] as const).map((slug) => (
+            <a key={slug} href={`${prefix}/${slug}`} className="rounded-2xl p-5 transition-transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+              <h3 className="font-display text-lg font-semibold" style={{ color: 'var(--accent)' }}>{topicT(`${slug}.h1`)}</h3>
+              <p className="text-sm mt-2 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{topicT(`${slug}.intro`)}</p>
             </a>
           ))}
         </div>
