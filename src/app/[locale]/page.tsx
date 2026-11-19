@@ -39,11 +39,12 @@ const messagesByLocale: Record<
   {
     meta: { title: string; description: string };
     faq: { items: FaqItem[] };
+    accessibility: { heroAlt: string };
   }
 > = {
-  zh: zhMessages as { meta: { title: string; description: string }; faq: { items: FaqItem[] } },
-  en: enMessages as { meta: { title: string; description: string }; faq: { items: FaqItem[] } },
-  es: esMessages as { meta: { title: string; description: string }; faq: { items: FaqItem[] } },
+  zh: zhMessages,
+  en: enMessages,
+  es: esMessages,
 };
 
 export function generateStaticParams() {
@@ -84,7 +85,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           url: ATTRACTION.heroImageUrl,
           width: 1200,
           height: 630,
-          alt: `${ATTRACTION.fullName} in ${ATTRACTION.city}, ${ATTRACTION.country}`,
+          alt: messagesByLocale[locale]?.accessibility.heroAlt ?? messagesByLocale.en.accessibility.heroAlt,
         },
       ],
     },
@@ -104,7 +105,7 @@ export default async function HomePage({ params }: PageProps) {
   const messages = messagesByLocale[locale] ?? messagesByLocale.en;
   const faqItems = messages.faq?.items ?? [];
 
-  const entityJsonLd = JSON.stringify(touristAttractionJsonLd(locale)).replace(/</g, '\\u003c');
+  const entityJsonLd = JSON.stringify(touristAttractionJsonLd(locale, messages.meta.description)).replace(/</g, '\\u003c');
   const faqJsonLd = JSON.stringify(faqPageJsonLd(faqItems)).replace(/</g, '\\u003c');
 
   return (
