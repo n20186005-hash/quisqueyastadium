@@ -21,6 +21,11 @@ const FAQ_LABEL: Record<string, string> = {
   es: 'Preguntas frecuentes',
   en: 'Frequently asked questions',
 };
+const INFO = {
+  es: { overview: 'Información esencial', rating: 'Valoración mostrada en este sitio', address: 'Dirección', access: 'Acceso y transporte', management: 'Administración del estadio', managementBody: 'El Patronato de Administración y Cuidado del Estadio Quisqueya gestiona el recinto conforme al régimen vigente. LIDOM y los clubes organizan sus respectivos partidos y venta de entradas.', hours: 'Horario', hoursBody: 'El acceso se organiza según el partido o evento. Confirma puertas y horario en tu entrada.', price: 'Entradas', priceBody: 'Precios según club, sector y partido; no existe tarifa única.', map: 'Abrir Google Maps', schedule: 'Calendario oficial de LIDOM', source: 'Fuente sobre la administración', photo: 'Imagen del estadio' },
+  en: { overview: 'Essential information', rating: 'Rating displayed on this site', address: 'Address', access: 'Getting there', management: 'Stadium management', managementBody: 'The Patronato de Administración y Cuidado del Estadio Quisqueya manages the venue under the current administration framework. LIDOM and the clubs organize their respective games and ticketing.', hours: 'Opening', hoursBody: 'Entry follows the event schedule. Check gate opening and start times on your ticket.', price: 'Tickets', priceBody: 'Prices vary by home club, section and game; there is no single stadium-wide rate.', map: 'Open Google Maps', schedule: 'Official LIDOM schedule', source: 'Management source', photo: 'Stadium photograph' },
+  zh: { overview: '基础资料', rating: '本站显示的评分', address: '地址', access: '交通与到达', management: '球场管理主体', managementBody: '基斯克亚球场现由 Patronato de Administración y Cuidado del Estadio Quisqueya 管理。LIDOM 与各主场球队分别组织赛事和售票。', hours: '开放时间', hoursBody: '按具体赛事安排入场，请依据门票核对开门与开赛时间。', price: '票价', priceBody: '因主队、分区及场次而异，没有统一固定票价。', map: '打开 Google 地图', schedule: 'LIDOM 官方赛程', source: '管理资料来源', photo: '球场实景' },
+} as const;
 
 export default function TopicPage({
   locale,
@@ -38,6 +43,7 @@ export default function TopicPage({
   homeLabel: string;
 }) {
   const currentUrl = `${SITE_URL}/${locale}/${topicSlug}`;
+  const ui = INFO[locale as keyof typeof INFO] ?? INFO.en;
 
   const faqJsonLd = JSON.stringify(faqPageJsonLd(topic.faq)).replace(/</g, '\\u003c');
   const breadcrumbJsonLd = JSON.stringify({
@@ -90,8 +96,27 @@ export default function TopicPage({
             {topic.intro}
           </p>
 
-          <div
-            className="mt-2 mb-10 p-4 rounded-xl text-sm flex items-start gap-3"
+          <section className="rounded-2xl p-5 sm:p-7 mb-9" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h2 className="font-display text-2xl font-semibold mb-4">{ui.overview}</h2>
+            <div className="grid sm:grid-cols-2 gap-4 text-sm" style={{ color: 'var(--text-secondary)' }}>
+              <div><strong>{ui.address}:</strong> {ATTRACTION.streetAddress}, Santo Domingo, República Dominicana</div>
+              <div><strong>{ui.rating}:</strong> {ATTRACTION.rating}/5 ({ATTRACTION.reviewCount}) · Google Maps</div>
+              <div><strong>{ui.hours}:</strong> {ui.hoursBody}</div>
+              <div><strong>{ui.price}:</strong> {ui.priceBody}</div>
+            </div>
+            <div className="flex flex-wrap gap-4 mt-5 text-sm font-semibold" style={{ color: 'var(--accent)' }}>
+              <a href={ATTRACTION.mapsShareUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">{ui.map} ↗</a>
+              <a href="https://www.lidom.com/estadisticas_v2-0/calendario/" target="_blank" rel="noopener noreferrer" className="hover:underline">{ui.schedule} ↗</a>
+            </div>
+          </section>
+
+          <section className="mb-9" style={{ color: 'var(--text-secondary)' }}>
+            <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{ui.management}</h2>
+            <p className="leading-relaxed mb-3">{ui.managementBody}</p>
+            <a href="https://www.presidencia.gob.do/noticias/poder-ejecutivo-deposita-proyecto-de-ley-para-construir-moderno-estadio-de-beisbol-y" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: 'var(--accent)' }}>{ui.source} ↗</a>
+          </section>
+
+          <div className="sr-only mt-2 mb-10 p-4 rounded-xl text-sm flex items-start gap-3"
             style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
           >
             <svg
