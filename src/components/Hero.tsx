@@ -3,6 +3,7 @@ import { ATTRACTION } from '@/lib/attraction';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const ta = useTranslations('accessibility');
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
@@ -15,7 +16,7 @@ export default function Hero() {
           />
           <img
             src={ATTRACTION.heroImagePath}
-            alt={`${ATTRACTION.fullName} - Main view in ${ATTRACTION.city}, ${ATTRACTION.country}`}
+            alt={ta('heroAlt')}
             className="w-full h-full object-cover"
             loading="eager"
             fetchPriority="high"
