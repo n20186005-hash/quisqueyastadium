@@ -1,10 +1,12 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { ATTRACTION } from '@/lib/attraction';
+import { nearbyGuides } from '@/lib/nearby-guides';
 
 type NearbyItem = { name: string; note: string };
 
 export default function NearbySection() {
   const t = useTranslations('nearby');
+  const locale = useLocale() as 'es' | 'en' | 'zh';
   const messages = useMessages() as any;
   const items = (messages?.nearby?.items || []) as NearbyItem[];
 
@@ -61,6 +63,15 @@ export default function NearbySection() {
               </a>
             </div>
           ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {(Object.keys(nearbyGuides) as Array<keyof typeof nearbyGuides>).map(slug => {
+            const guide = nearbyGuides[slug];
+            return <a key={slug} href={`/${locale}/nearby/${slug}`} className="rounded-2xl overflow-hidden transition-transform hover:-translate-y-1" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+              <img src={guide.image} alt={guide.name} loading="lazy" className="w-full h-52 object-cover" />
+              <div className="p-6"><h3 className="font-display text-xl font-semibold mb-2">{guide.localized[locale].title}</h3><p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{guide.localized[locale].intro}</p></div>
+            </a>;
+          })}
         </div>
       </div>
     </section>
