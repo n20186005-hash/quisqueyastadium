@@ -15,6 +15,8 @@ const TOPIC_SLUGS = [
   'calendario-2026-2027',
   'capacidad',
   'nuevo-estadio-quisqueya',
+  'mapa-asientos',
+  'licey-escogido',
 ];
 
 export const dynamicParams = false;
