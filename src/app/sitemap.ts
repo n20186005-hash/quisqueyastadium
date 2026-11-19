@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
+import { nearbyGuides } from '@/lib/nearby-guides';
 
 export const dynamic = 'force-static';
 
@@ -19,8 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/nuevo-estadio-quisqueya',
     '/mapa-asientos',
     '/licey-escogido',
-    '/nearby/jardin-botanico-nacional',
-    '/nearby/museo-del-hombre-dominicano',
+    ...Object.keys(nearbyGuides).map(slug => `/nearby/${slug}`),
   ];
 
   const sitemap: MetadataRoute.Sitemap = [];
