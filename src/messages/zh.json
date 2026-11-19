@@ -1,4 +1,19 @@
 {
+  "accessibility": {
+    "breadcrumb": "面包屑导航",
+    "languageToggle": "切换语言",
+    "themeToggle": "切换浅色与深色主题",
+    "heroAlt": "多米尼加共和国圣多明各基斯克亚·胡安·马里查尔球场主视图",
+    "galleryAlt": "{caption}——圣多明各基斯克亚球场",
+    "galleryFallback": "圣多明各基斯克亚球场第 {number} 张照片",
+    "galleryClose": "关闭照片查看器",
+    "galleryPrevious": "上一张照片",
+    "galleryNext": "下一张照片",
+    "mapFrame": "基斯克亚球场在圣多明各的谷歌地图位置",
+    "geoCountry": "多米尼加共和国",
+    "geoRegion": "国家区",
+    "mapOfficialSuffix": "。"
+  },
   "meta": {
     "title": "Estadio Quisqueya Juan Marichal（圣多明戈）门票、容量与赛程",
     "description": "圣多明戈 Estadio Quisqueya Juan Marichal（基斯克亚球场）访客指南：查询场馆容量、Licey 与 Escogido 比赛门票与赛程、以及球场演唱会等最新活动安排。"
